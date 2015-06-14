@@ -34,7 +34,7 @@ locations<-locations[!(locations %in% us.cities$name)]
 
 ##locations[1:1900]
 
-x<-lapply(locations[1:1900],function(x) y<- tryCatch(geocode(x, output = c("more")),
+x<-lapply(locations[1901:2400],function(x) y<- tryCatch(geocode(x, output = c("more")),
               warning = function(w) {
                 print("warning"); 
                 # handle warning here
