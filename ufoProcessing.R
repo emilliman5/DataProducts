@@ -44,3 +44,4 @@ x<-lapply(locations[1:1900],function(x) y<- tryCatch(geocode(x, output = c("more
               }))
 tmp<-do.call(rbind, x)
 write.table(tmp, "geocodes_1-1900.txt", sep="\t",quote=F,row.names=F)
+write.table(geocodes, "geocodes_master.txt", sep="\t",quote=F,row.names=F)
