@@ -32,11 +32,9 @@ locations<-unique(paste(obs$City, obs$State, sep=","))
 geocodes<-us.cities[us.cities$name %in% locations,]
 locations<-locations[!(locations %in% us.cities$name)]
 
+##locations[1:1900]
 
-locs<-c("Joshua Tree National Park","Detroit MI")
-
-  
-x<-lapply(locs,function(x) y<- tryCatch(geocode(x, output = c("more")),
+x<-lapply(locations[1:1900],function(x) y<- tryCatch(geocode(x, output = c("more")),
               warning = function(w) {
                 print("warning"); 
                 # handle warning here
@@ -44,6 +42,5 @@ x<-lapply(locs,function(x) y<- tryCatch(geocode(x, output = c("more")),
               error = function(e) {
                 print("error")
               }))
-
-
-geocodes<-geocode(locations[1:2000], output = "more")
+tmp<-do.call(rbind, x)
+write.table(tmp, "geocodes_1-1900.txt", sep="\t",quote=F,row.names=F)
