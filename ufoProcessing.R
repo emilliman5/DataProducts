@@ -33,8 +33,10 @@ geocodes<-us.cities[us.cities$name %in% locations,]
 locations<-locations[!(locations %in% us.cities$name)]
 
 ##locations[1:1900]
+##locations[1901:2400]
+##locations[2401:4400]
 
-x<-lapply(locations[1901:2400],function(x) y<- tryCatch(geocode(x, output = c("more")),
+x<-lapply(locations[4401:5000],function(x) y<- tryCatch(geocode(x, output = c("more")),
               warning = function(w) {
                 print("warning"); 
                 # handle warning here
@@ -43,5 +45,5 @@ x<-lapply(locations[1901:2400],function(x) y<- tryCatch(geocode(x, output = c("m
                 print("error")
               }))
 tmp<-do.call(rbind, x)
-write.table(tmp, "geocodes_1901-2400.txt", sep="\t",quote=F,row.names=F)
+write.table(tmp, "geocodes_2401-4400.txt", sep="\t",quote=F,row.names=F)
 write.table(geocodes, "geocodes_master.txt", sep="\t",quote=F,row.names=F)
