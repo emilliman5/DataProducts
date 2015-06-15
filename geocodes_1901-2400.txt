@@ -1,0 +1,501 @@
+lon	lat	type	loctype	address	north	south	east	west	postal_code	country	administrative_area_level_2	administrative_area_level_1	locality	street	streetNo	point_of_interest	query
+-1.479726	53.55263	locality	approximate	barnsley, south yorkshire, uk	53.6013373	53.5271566	-1.3683433	-1.5282373	NA	united kingdom	south yorkshire	england	barnsley	NA	NA	NA	Barnsley+,
+-70.9756186	43.304526	locality	approximate	rochester, nh, usa	43.3785062	43.2257819	-70.8963051	-71.0727078	NA	united states	strafford county	new hampshire	rochester	NA	NA	NA	Rochester,NH
+-75.6966001	39.7876112	locality	approximate	hockessin, de, usa	39.8136779	39.7614839	-75.6348919	-75.7250059	NA	united states	new castle county	delaware	hockessin	NA	NA	NA	Hockessin,DE
+-75.6903492	35.2194549	locality	approximate	hatteras, nc, usa	35.2331605	35.2048876	-75.6676107	-75.7065141	NA	united states	dare county	north carolina	hatteras	NA	NA	NA	Hatteras,NC
+-77.4291298	39.0066993	locality	approximate	sterling, va, usa	39.025042	38.9827089	-77.3715121	-77.4352299	NA	united states	loudoun county	virginia	sterling	NA	NA	NA	Sterling,VA
+73.47	22.5	locality	approximate	halol, gujarat, india	22.5582562	22.4938391	73.4909435	73.4343123	NA	india	panchmahal	gujarat	halol	NA	NA	NA	Halol+,
+-80.0943113	43.9199788	locality	approximate	orangeville, on, canada	43.9349519	43.889315	-80.0613258	-80.1459319	NA	canada	dufferin county	ontario	orangeville	NA	NA	NA	Orangeville+,ON
+-76.8627367	42.9047884	locality	approximate	waterloo, ny 13165, usa	42.9178379	42.892523	-76.8417999	-76.8769361	13165	united states	seneca county	new york	waterloo	NA	NA	NA	Waterloo,NY
+-89.5889864	40.6936488	locality	approximate	peoria, il, usa	40.844136	40.651938	-89.5487223	-89.698281	NA	united states	peoria county	illinois	peoria	NA	NA	NA	Peoria,IL
+error	error	NA	NA	NA	error	error	error	error	error	error	error	error	error	error	error	error	error
+-2.2426305	53.4807593	locality	approximate	manchester, uk	53.5445879	53.399903	-2.1470875	-2.3000969	NA	united kingdom	greater manchester	england	manchester	NA	NA	NA	Manchester+,
+-81.0228331	29.2108147	locality	approximate	daytona beach, fl, usa	29.2898916	29.127476	-80.9829099	-81.21031	NA	united states	volusia county	florida	daytona beach	NA	NA	NA	Daytona+Beach,FL
+-70.8736698	43.1978624	locality	approximate	dover, nh, usa	43.254982	43.117682	-70.819115	-70.961606	NA	united states	strafford county	new hampshire	dover	NA	NA	NA	Dover,NH
+-90.5487012	30.4290818	locality	approximate	springfield, la, usa	30.441683	30.4143169	-90.5216269	-90.5561368	NA	united states	livingston parish	louisiana	springfield	NA	NA	NA	Springfield,LA
+-117.1993469	34.9344769	locality	approximate	hinkley, ca 92347, usa	34.9377831	34.9289453	-117.1966069	-117.2022659	92347	united states	san bernardino county	california	hinkley	NA	NA	NA	Hinkley,CA
+-118.4275776	33.9727898	neighborhood	approximate	playa vista, los angeles, ca 90094, usa	33.9820427	33.9635359	-118.4115702	-118.443585	90094	united states	los angeles county	california	los angeles	NA	NA	NA	Play+Vista,CA
+-87.657584	44.0886059	locality	approximate	manitowoc, wi, usa	44.1389829	44.048812	-87.6200319	-87.761512	NA	united states	manitowoc county	wisconsin	manitowoc	NA	NA	NA	Manitowoc,WI
+-80.2714505	40.6872885	locality	approximate	monaca, pa, usa	40.696166	40.6703661	-80.2544829	-80.297984	NA	united states	beaver county	pennsylvania	monaca	NA	NA	NA	Monaca,PA
+-117.8531119	33.7877944	locality	approximate	orange, ca, usa	33.847415	33.7736169	-117.7361179	-117.904336	NA	united states	orange county	california	orange	NA	NA	NA	Orange,CA
+-77.4302414	34.7540524	locality	approximate	jacksonville, nc, usa	34.815196	34.6383957	-77.307847	-77.4799009	NA	united states	onslow county	north carolina	jacksonville	NA	NA	NA	Jacksonville,NC
+-117.603104	33.640855	locality	approximate	rancho santa margarita, ca, usa	33.6726001	33.564161	-117.5559279	-117.63915	NA	united states	orange county	california	rancho santa margarita	NA	NA	NA	Rancho+Santa+Margarita,CA
+-99.3239853	39.7561206	locality	approximate	phillipsburg, ks 67661, usa	39.7693659	39.7315059	-99.3025189	-99.3362651	67661	united states	phillips county	kansas	phillipsburg	NA	NA	NA	Phillipsburg,KS
+-84.4549262	33.4487257	locality	approximate	fayetteville, ga, usa	33.4926159	33.412701	-84.4176831	-84.5121949	NA	united states	fayette county	georgia	fayetteville	NA	NA	NA	Fayetteville,GA
+-75.0259637	39.4863773	locality	approximate	vineland, nj, usa	39.568643	39.3777149	-74.896626	-75.0871289	NA	united states	cumberland county	new jersey	vineland	NA	NA	NA	Vineland,NJ
+-76.7002462	39.0839981	locality	approximate	odenton, md, usa	39.103308	39.0193109	-76.6550879	-76.734391	NA	united states	anne arundel county	maryland	odenton	NA	NA	NA	Odenton,MD
+-81.398696	30.3344077	locality	approximate	atlantic beach, fl, usa	30.3608129	30.3233431	-81.3946733	-81.438526	NA	united states	duval county	florida	atlantic beach	NA	NA	NA	Atlantic+Beach,FL
+-84.5603187	39.3454673	locality	approximate	fairfield, oh, usa	39.366656	39.3013859	-84.4762751	-84.629921	NA	united states	butler county	ohio	fairfield	NA	NA	NA	Fairfield,OH
+-81.0998342	32.0835407	locality	approximate	savannah, ga, usa	32.189996	31.8910777	-81.0303609	-81.370391	NA	united states	chatham county	georgia	savannah	NA	NA	NA	Savannah,GA
+-118.92794	34.1459	locality	approximate	hidden valley, ca 91361, usa	34.155134	34.136665	-118.9119326	-118.9439474	91361	united states	ventura county	california	hidden valley	NA	NA	NA	Hidden+Valley,CA
+-86.2196936	32.8895681	locality	approximate	rockford, al 35136, usa	32.91061	32.870185	-86.1978799	-86.2285389	35136	united states	coosa county	alabama	rockford	NA	NA	NA	Rockford,AL
+-72.795027	41.7360305	locality	approximate	farmington, ct, usa	41.7764978	41.6878989	-72.7619688	-72.908546	NA	united states	hartford county	connecticut	farmington	NA	NA	NA	Farmington,CT
+-77.4310992	38.8942786	locality	approximate	chantilly, va, usa	38.9109341	38.8466979	-77.364681	-77.4493559	NA	united states	fairfax county	virginia	chantilly	NA	NA	NA	Chantilly,VA
+-75.1895576	39.8318378	locality	approximate	west deptford, nj, usa	39.8803462	39.794947	-75.1303159	-75.237218	NA	united states	gloucester county	new jersey	west deptford	NA	NA	NA	West+Deptford,NJ
+-74.6400432	40.5292099	administrative_area_level_2	approximate	somerset county, nj, usa	40.758005	40.3743969	-74.4018389	-74.797841	NA	united states	somerset county	new jersey	NA	NA	NA	NA	Somerset+,NJ
+-76.8610462	39.2037144	locality	approximate	columbia, md, usa	39.2400389	39.1476489	-76.786965	-76.9432	NA	united states	howard county	maryland	columbia	NA	NA	NA	Columbia+,MD
+-75.2913018	38.5915023	locality	approximate	millsboro, de, usa	38.6060299	38.570558	-75.271485	-75.3076799	NA	united states	sussex county	delaware	millsboro	NA	NA	NA	Millsboro,DE
+-87.825055	41.7255879	locality	approximate	hickory hills, il, usa	41.7401319	41.7084319	-87.8056019	-87.8481559	NA	united states	cook county	illinois	hickory hills	NA	NA	NA	Hickory+Hills,IL
+76.6393805	12.2958104	locality	approximate	mysuru, karnataka, india	12.3744611	12.2468304	76.7110062	76.5603734	NA	india	mysuru	karnataka	mysuru	NA	NA	NA	Mysore+,
+-94.969956	35.91537	locality	approximate	tahlequah, ok 74464, usa	35.952788	35.856271	-94.9419011	-95.015171	74464	united states	cherokee county	oklahoma	tahlequah	NA	NA	NA	Tahlequah,OK
+-83.6324022	32.8406946	locality	approximate	macon, ga, usa	32.899785	32.765651	-83.5485979	-83.7397409	NA	united states	bibb county	georgia	macon	NA	NA	NA	Macon,GA
+-84.0199108	33.857328	locality	approximate	snellville, ga, usa	33.8921699	33.818717	-83.950932	-84.0437659	NA	united states	gwinnett county	georgia	snellville	NA	NA	NA	Snellville,GA
+-84.7902223	35.5147939	locality	approximate	decatur, tn 37322, usa	35.5413039	35.503591	-84.7735699	-84.8128091	37322	united states	meigs county	tennessee	decatur	NA	NA	NA	Decatur,TN
+-81.7328567	28.0222435	locality	approximate	winter haven, fl, usa	28.095211	27.920327	-81.62822	-81.77014	NA	united states	polk county	florida	winter haven	NA	NA	NA	Winter+Haven,FL
+-122.6343134	47.2502467	locality	approximate	fox island, wa 98333, usa	47.2784829	47.2181077	-122.5894104	-122.6697368	98333	united states	pierce county	washington	fox island	NA	NA	NA	Fox+Island,WA
+-80.3000866	39.3956423	locality	approximate	shinnston, wv 26431, usa	39.410078	39.374649	-80.280182	-80.313125	26431	united states	harrison county	west virginia	shinnston	NA	NA	NA	Shinnston,WV
+-78.6141798	33.8732279	locality	approximate	little river, sc, usa	33.9062479	33.851508	-78.5768861	-78.6872949	NA	united states	horry county	south carolina	little river	NA	NA	NA	Little+River,SC
+-89.5912098	40.6472603	locality	approximate	creve coeur, il, usa	40.6610451	40.622138	-89.57393	-89.637101	NA	united states	tazewell county	illinois	creve coeur	NA	NA	NA	Creve+Coeur,IL
+-157.8583333	21.3069444	locality	approximate	honolulu, hi, usa	21.4012299	21.2549062	-157.6485225	-157.9494185	NA	united states	honolulu county	hawaii	honolulu	NA	NA	NA	Honolulu,HI
+-88.5445447	42.6727927	locality	approximate	elkhorn, wi, usa	42.7208689	42.640985	-88.491382	-88.5733429	NA	united states	walworth county	wisconsin	elkhorn	NA	NA	NA	Elkhorn,WI
+-93.3292623	43.763832	locality	approximate	clarks grove, mn 56016, usa	43.7686019	43.7570339	-93.3160109	-93.337009	56016	united states	freeborn county	minnesota	clarks grove	NA	NA	NA	Clarks+Grove,MN
+-86.4197134	35.0625857	locality	approximate	flintville, tn 37335, usa	35.0717183	35.0534521	-86.403706	-86.4357208	37335	united states	lincoln county	tennessee	flintville	NA	NA	NA	Flintville,TN
+-95.6890185	39.0558235	locality	approximate	topeka, ks, usa	39.109265	38.916844	-95.603799	-95.812263	NA	united states	shawnee county	kansas	topeka	NA	NA	NA	Topeka,KS
+-119.0987176	36.4135605	locality	approximate	woodlake, ca 93286, usa	36.428238	36.393929	-119.080878	-119.1348081	93286	united states	tulare county	california	woodlake	NA	NA	NA	Woodlake,CA
+-117.9772873	34.1394513	locality	approximate	duarte, ca, usa	34.1943251	34.1213861	-117.924704	-117.990543	NA	united states	los angeles county	california	duarte	NA	NA	NA	Duarte,CA
+-119.2518349	39.6079683	locality	approximate	fernley, nv, usa	39.7403848	39.4599369	-119.0585139	-119.323053	NA	united states	lyon county	nevada	fernley	NA	NA	NA	Fernley,NV
+-89.2633939	31.8668234	locality	approximate	stringer, ms 39481, usa	31.8762991	31.8573467	-89.2473865	-89.2794013	39481	united states	jasper county	mississippi	stringer	NA	NA	NA	Stringer,MS
+-75.1253492	40.1198332	locality	approximate	abington, pa, usa	40.141009	40.10681	-75.0966121	-75.1562191	NA	united states	montgomery county	pennsylvania	abington	NA	NA	NA	Abington,PA
+-117.0805825	33.0335773	neighborhood	approximate	rancho bernardo, san diego, ca, usa	33.080419	32.987306	-117.0231429	-117.133866	NA	united states	san diego county	california	san diego	NA	NA	NA	Rancho+Bernardo,CA
+-120.6212821	35.1216424	locality	approximate	grover beach, ca, usa	35.1343679	35.105481	-120.6047641	-120.6385611	NA	united states	san luis obispo county	california	grover beach	NA	NA	NA	Grover+Beach,CA
+-105.0822551	39.4454285	route	geometric_center	roxborough drive, littleton, co 80125, usa	39.4641836	39.426615	-105.0613332	-105.090841	80125	united states	douglas county	colorado	littleton	roxborough drive	NA	NA	Roxborough,CO
+-80.7797935	37.0478982	locality	approximate	pulaski, va, usa	37.0808049	37.032336	-80.7224349	-80.800543	NA	united states	pulaski county	virginia	pulaski	NA	NA	NA	Pulaski,VA
+-122.310765	37.9161326	locality	approximate	el cerrito, ca, usa	37.9382241	37.897825	-122.28108	-122.323581	NA	united states	contra costa county	california	el cerrito	NA	NA	NA	El+Cerrito,CA
+-78.9983676	33.683504	locality	approximate	socastee, sc, usa	33.7315361	33.650192	-78.9377719	-79.0689369	NA	united states	horry county	south carolina	socastee	NA	NA	NA	Socastee,SC
+-75.6915973	39.3951115	locality	approximate	townsend, de 19734, usa	39.408353	39.387003	-75.679809	-75.7076731	19734	united states	new castle county	delaware	townsend	NA	NA	NA	Townsend,DE
+-123.7737763	46.9553719	locality	approximate	cosmopolis, wa, usa	46.96365	46.9440029	-123.752091	-123.7896259	NA	united states	grays harbor county	washington	cosmopolis	NA	NA	NA	Cosmopolis,WA
+-118.0725641	33.8030716	locality	approximate	los alamitos, ca, usa	33.8195179	33.781016	-118.0324789	-118.092942	NA	united states	orange county	california	los alamitos	NA	NA	NA	Los+Alamitos,CA
+-78.8894682	38.0684692	locality	approximate	waynesboro, va, usa	38.0991399	38.0311851	-78.85509	-78.9514839	NA	united states	NA	virginia	waynesboro	NA	NA	NA	Waynesboro,VA
+-86.2088669	34.2675937	locality	approximate	albertville, al, usa	34.316804	34.216478	-86.1459579	-86.2744769	NA	united states	marshall county	alabama	albertville	NA	NA	NA	Albertville,AL
+174.4382721	-39.3538149	administrative_area_level_1	approximate	taranaki, new zealand	-38.706394	-39.869374	174.9761954	173.751323	NA	new zealand	NA	taranaki	NA	NA	NA	NA	Taranaki+,
+-83.0354289	33.4720779	locality	approximate	white plains, ga, usa	33.5133949	33.45711	-83.0128529	-83.0558949	NA	united states	greene county	georgia	white plains	NA	NA	NA	White+Plains,GA
+-87.70253	34.7312005	locality	approximate	tuscumbia, al, usa	34.7455391	34.687332	-87.666995	-87.7522309	NA	united states	colbert county	alabama	tuscumbia	NA	NA	NA	Tuscumbia,AL
+-90.704279	35.8422967	locality	approximate	jonesboro, ar, usa	35.8933789	35.7486	-90.551545	-90.785927	NA	united states	craighead county	arkansas	jonesboro	NA	NA	NA	Jonesboro,AR
+-84.6154897	34.0234337	locality	approximate	kennesaw, ga, usa	34.066902	33.9854599	-84.5840659	-84.650021	NA	united states	cobb county	georgia	kennesaw	NA	NA	NA	Kennesaw,GA
+-88.1625389	38.9908766	locality	approximate	newton, il 62448, usa	38.9980891	38.9728349	-88.143873	-88.192267	62448	united states	jasper county	illinois	newton	NA	NA	NA	Newton+,IL
+-87.5675315	38.355236	route	geometric_center	indiana 65, indiana, usa	38.4823142	38.0204026	-87.3946982	-87.711429	NA	united states	NA	indiana	NA	highway 65	NA	NA	I-65+,IN
+-82.5154471	40.75839	locality	approximate	mansfield, oh, usa	40.843412	40.68897	-82.457189	-82.59009	NA	united states	richland county	ohio	mansfield	NA	NA	NA	Mansfield+,OH
+-76.7439767	38.4421648	locality	approximate	mechanicsville, md 20659, usa	38.463328	38.419237	-76.70862	-76.7706039	20659	united states	st. mary's county	maryland	mechanicsville	NA	NA	NA	Mechanicsville,MD
+-89.7781379	35.4411945	locality	approximate	atoka, tn, usa	35.470459	35.3854289	-89.745004	-89.8526459	NA	united states	tipton county	tennessee	atoka	NA	NA	NA	Atoka,TN
+-82.6829406	38.5367471	locality	approximate	ironton, oh, usa	38.558408	38.499396	-82.6502601	-82.7164941	NA	united states	lawrence county	ohio	ironton	NA	NA	NA	Ironton,OH
+-118.6839945	48.0783632	locality	approximate	keller, wa 99140, usa	48.118175	48.0518213	-118.660759	-118.7808519	99140	united states	ferry county	washington	keller	NA	NA	NA	Keller,WA
+-121.4798948	38.636514	neighborhood	approximate	north sacramento, sacramento, ca, usa	38.6855541	38.582489	-121.363332	-121.5601679	NA	united states	sacramento county	california	sacramento	NA	NA	NA	North+Sacramento,CA
+-71.5642076	41.6885978	locality	approximate	coventry, ri, usa	41.730208	41.6560649	-71.5324061	-71.789703	NA	united states	kent county	rhode island	coventry	NA	NA	NA	Coventry,RI
+-90.2015111	40.8617048	locality	approximate	gilson, il 61436, usa	40.8701429	40.8532656	-90.1855037	-90.2175185	61436	united states	knox county	illinois	gilson	NA	NA	NA	Gilson,IL
+-73.116214	42.36592	locality	approximate	washington, ma, usa	42.413885	42.301533	-73.064376	-73.2384011	NA	united states	berkshire county	massachusetts	washington	NA	NA	NA	Washington,MA
+-111.7573521	32.8795022	locality	approximate	casa grande, az, usa	32.99662	32.777503	-111.636468	-111.9123101	NA	united states	pinal county	arizona	casa grande	NA	NA	NA	Casa+Grande,AZ
+-81.3792365	28.5383355	locality	approximate	orlando, fl, usa	28.6143519	28.3479859	-81.22977	-81.50773	NA	united states	orange county	florida	orlando	NA	NA	NA	Orlando+,FL
+-88.6222708	34.0889981	locality	approximate	nettleton, ms, usa	34.1078801	34.0647009	-88.604656	-88.6487201	NA	united states	monroe county	mississippi	nettleton	NA	NA	NA	Nettleton,MS
+-81.5370671	41.4739419	locality	approximate	shaker heights, oh, usa	41.4929519	41.4570529	-81.507121	-81.5937571	NA	united states	cuyahoga county	ohio	shaker heights	NA	NA	NA	Shaker+Heights,OH
+-70.8411558	42.6791832	locality	approximate	ipswich, ma, usa	42.7314932	42.6342	-70.7279912	-70.9659059	NA	united states	essex county	massachusetts	ipswich	NA	NA	NA	Ipswich,MA
+-95.4035523	30.8529664	locality	approximate	riverside, tx, usa	30.8611219	30.837178	-95.378097	-95.4183061	NA	united states	walker county	texas	riverside	NA	NA	NA	Riverside,TX
+-97.4844657	33.0012356	locality	approximate	newark, tx, usa	33.0237001	32.9828568	-97.445044	-97.502876	NA	united states	wise county	texas	newark	NA	NA	NA	Newark,TX
+-71.3020052	42.6703687	locality	approximate	dracut, ma, usa	42.736102	42.649153	-71.238103	-71.3788649	NA	united states	middlesex county	massachusetts	dracut	NA	NA	NA	Dracut,MA
+-76.8077338	42.0897965	locality	approximate	elmira, ny, usa	42.120203	42.064651	-76.776711	-76.842274	NA	united states	chemung county	new york	elmira	NA	NA	NA	Elmira,NY
+-70.8476708	42.1162217	locality	approximate	hanover, ma, usa	42.1582128	42.0856008	-70.8035019	-70.899861	NA	united states	plymouth county	massachusetts	hanover	NA	NA	NA	Hanover,MA
+-80.1989362	25.984536	locality	approximate	west park, fl, usa	25.9956679	25.9727	-80.1743609	-80.2071689	NA	united states	broward county	florida	west park	NA	NA	NA	West+Park,FL
+-73.9234619	40.7643574	neighborhood	approximate	astoria, queens, ny, usa	40.7826018	40.7529475	-73.9022182	-73.9447342	NA	united states	queens county	new york	new york	NA	NA	NA	Astoria+,NY
+error	error	NA	NA	NA	error	error	error	error	error	error	error	error	error	error	error	error	error
+-82.7873244	27.9094665	locality	approximate	largo, fl, usa	27.9432791	27.875044	-82.6962789	-82.8452817	NA	united states	pinellas county	florida	largo	NA	NA	NA	Largo,FL
+-87.0611412	41.4730948	locality	approximate	valparaiso, in, usa	41.512036	41.4388139	-86.9974599	-87.109371	NA	united states	porter county	indiana	valparaiso	NA	NA	NA	Valparaiso,IN
+-81.0278546	35.024312	locality	approximate	tega cay, sc, usa	35.057293	35.0205922	-80.9898066	-81.0395409	NA	united states	york county	south carolina	tega cay	NA	NA	NA	Tega+Cay,SC
+-116.9739167	32.8383828	locality	approximate	santee, ca, usa	32.9034739	32.814991	-116.938079	-117.038447	NA	united states	san diego county	california	santee	NA	NA	NA	Santee,CA
+-78.8156113	43.1848992	administrative_area_level_3	approximate	cambria, ny, usa	43.2205559	43.132056	-78.754108	-78.885562	NA	united states	niagara county	new york	NA	NA	NA	NA	Cambria,NY
+-80.3928423	40.3820132	locality	approximate	burgettstown, pa 15021, usa	40.3905669	40.371649	-80.385406	-80.399163	15021	united states	washington county	pennsylvania	burgettstown	NA	NA	NA	Burgettstown,PA
+121.5362916	-30.8101921	locality	approximate	lakewood wa 6431, australia	-30.8041534	-30.8549365	121.5572891	121.4949875	6431	australia	NA	western australia	lakewood	NA	NA	NA	Lakewood,WA
+-93.1540591	33.9209365	locality	approximate	gurdon, ar 71743, usa	33.926553	33.903923	-93.129639	-93.1950189	71743	united states	clark county	arkansas	gurdon	NA	NA	NA	Gurdon,AR
+-70.8481164	43.5406359	locality	approximate	shapleigh, me, usa	43.627607	43.470261	-70.7803749	-70.9083969	NA	united states	york county	maine	shapleigh	NA	NA	NA	Shapleigh,ME
+-122.2566367	38.1040864	locality	approximate	vallejo, ca, usa	38.173496	38.0603991	-122.1661499	-122.3590306	NA	united states	solano county	california	vallejo	NA	NA	NA	Vallejo,CA
+-90.751516	42.5144462	locality	approximate	asbury, ia 52002, usa	42.5228449	42.4993909	-90.7450269	-90.802009	52002	united states	dubuque county	iowa	asbury	NA	NA	NA	Asbury,IA
+-122.3255254	37.5629917	locality	approximate	san mateo, ca, usa	37.5923396	37.510937	-122.275478	-122.3557821	NA	united states	san mateo county	california	san mateo	NA	NA	NA	San+Mateo,CA
+-81.3124341	29.9012437	locality	approximate	saint augustine, fl, usa	29.956052	29.8569199	-81.2657009	-81.3448929	NA	united states	st. johns county	florida	saint augustine	NA	NA	NA	St-Augustine,FL
+-71.4745881	42.0867608	locality	approximate	bellingham, ma, usa	42.13587	42.01719	-71.4411169	-71.5031498	NA	united states	norfolk county	massachusetts	bellingham	NA	NA	NA	Bellingham,MA
+-76.643633	38.488806	airport	approximate	sandy point, prince frederick, md 20678, usa	38.4901549802915	38.4874570197085	-76.6422840197085	-76.6449819802915	20678	united states	calvert county	maryland	prince frederick	NA	NA	sandy point	Sandy+Point+,
+-93.4044187	44.9260794	locality	approximate	hopkins, mn, usa	44.94927	44.906064	-93.3708241	-93.4295199	NA	united states	hennepin county	minnesota	hopkins	NA	NA	NA	Hopkins,MN
+-116.553465	48.276577	locality	approximate	sandpoint, id, usa	48.3127569	48.2566349	-116.5377506	-116.581108	NA	united states	bonner county	idaho	sandpoint	NA	NA	NA	Sandpoint,ID
+-94.1185366	36.3320196	locality	approximate	rogers, ar, usa	36.40587	36.265266	-94.079499	-94.241444	NA	united states	benton county	arkansas	rogers	NA	NA	NA	Rogers,AR
+-98.2142572	44.3633173	locality	approximate	huron, sd, usa	44.399637	44.32698	-98.153926	-98.2585079	NA	united states	beadle county	south dakota	huron	NA	NA	NA	Huron,SD
+-118.096735	33.9830688	locality	approximate	pico rivera, ca, usa	34.0288469	33.950362	-118.040001	-118.123238	NA	united states	los angeles county	california	pico rivera	NA	NA	NA	Pico+Rivera,CA
+-118.081733	33.9022367	locality	approximate	norwalk, ca, usa	33.9340258	33.8803119	-118.0420779	-118.111812	NA	united states	los angeles county	california	norwalk	NA	NA	NA	Norwalk,CA
+-84.3280022	39.9625534	locality	approximate	west milton, oh, usa	39.9907848	39.927316	-84.31112	-84.346385	NA	united states	miami county	ohio	west milton	NA	NA	NA	West+Milton,OH
+-85.1115965	31.2926762	locality	approximate	columbia, al, usa	31.3086769	31.276302	-85.087643	-85.139535	NA	united states	houston county	alabama	columbia	NA	NA	NA	Columbia,AL
+-75.2743467	40.1023319	locality	approximate	plymouth meeting, pa, usa	40.131785	40.0884099	-75.2601229	-75.304925	NA	united states	montgomery county	pennsylvania	plymouth meeting	NA	NA	NA	Plymouth+Meeting,PA
+-80.4267553	36.0004956	locality	approximate	bermuda run, nc 27006, usa	36.0168584	35.9879292	-80.4137499	-80.4529264	27006	united states	davie county	north carolina	bermuda run	NA	NA	NA	Bermuda+Run,NC
+-98.0017248	41.1158476	locality	approximate	central city, ne 68826, usa	41.1306009	41.1010039	-97.9668119	-98.020044	68826	united states	merrick county	nebraska	central city	NA	NA	NA	Central+City,NE
+-74.6053047	39.3160641	locality	approximate	somers point, nj, usa	39.337404	39.2940346	-74.5690469	-74.62905	NA	united states	atlantic county	new jersey	somers point	NA	NA	NA	Somers+Point,NJ
+-92.3425775	42.492786	locality	approximate	waterloo, ia, usa	42.5704659	42.4221841	-92.24888	-92.4371199	NA	united states	black hawk county	iowa	waterloo	NA	NA	NA	Waterloo,IA
+-106.5511369	35.30004	locality	approximate	bernalillo, nm, usa	35.334438	35.286034	-106.5209151	-106.5844171	NA	united states	sandoval county	new mexico	bernalillo	NA	NA	NA	Bernalillo,NM
+-71.6306317	43.695318	locality	approximate	ashland, nh, usa	43.7494902	43.6861609	-71.5816139	-71.6767788	NA	united states	grafton county	new hampshire	ashland	NA	NA	NA	Ashland,NH
+-122.3467918	47.4703767	locality	approximate	burien, wa, usa	47.5222241	47.431021	-122.292294	-122.3827749	NA	united states	king county	washington	burien	NA	NA	NA	Burien,WA
+-91.5015002	29.7960399	locality	approximate	franklin, la, usa	29.822948	29.753266	-91.4783959	-91.546909	NA	united states	st. mary parish	louisiana	franklin	NA	NA	NA	Franklin,LA
+-78.7361323	35.1629419	locality	approximate	wade, nc, usa	35.175361	35.1442799	-78.722288	-78.7560129	NA	united states	cumberland county	north carolina	wade	NA	NA	NA	Wade,NC
+-80.0364297	26.7056206	locality	approximate	palm beach, fl, usa	26.771484	26.5943506	-80.0317098	-80.0454819	NA	united states	palm beach county	florida	palm beach	NA	NA	NA	Palm+Beach,FL
+-96.6705503	33.1031744	locality	approximate	allen, tx, usa	33.157565	33.0708109	-96.6088088	-96.736575	NA	united states	collin county	texas	allen	NA	NA	NA	Allen,TX
+-79.1214313	33.4332236	locality	approximate	pawleys island, sc, usa	33.4478618	33.3988652	-79.1088986	-79.1394889	NA	united states	georgetown county	south carolina	pawleys island	NA	NA	NA	Pawleys+Island,SC
+-80.0728201	26.4614625	locality	approximate	delray beach, fl, usa	26.4914608	26.4205549	-80.0557783	-80.12865	NA	united states	palm beach county	florida	delray beach	NA	NA	NA	Delray+Beach,FL
+-123.3125763	43.3901177	locality	approximate	sutherlin, or, usa	43.4108011	43.361908	-123.281334	-123.378181	NA	united states	douglas county	oregon	sutherlin	NA	NA	NA	Sutherlin,OR
+-72.2051022	44.9364356	locality	approximate	newport, vt 05855, usa	44.9658989	44.901387	-72.1689199	-72.2428241	05855	united states	orleans county	vermont	newport	NA	NA	NA	Newport,VT
+54.366667	24.466667	locality	approximate	abu dhabi - abu dhabi - united arab emirates	24.6213301	24.1517661	54.8509598	54.268856	NA	united arab emirates	NA	abu dhabi	abu dhabi	NA	NA	NA	Abu+Dhabi,
+-85.3809149	36.7396974	route	geometric_center	cold springs road, burkesville, ky 42717, usa	36.7410885802915	36.7383906197085	-85.3734249	-85.3885418	42717	united states	cumberland county	kentucky	burkesville	cold springs road	NA	NA	Cold+Springs,KY
+-75.2437853	40.2473291	locality	approximate	montgomeryville, pa, usa	40.274426	40.225007	-75.2141328	-75.2639189	NA	united states	montgomery county	pennsylvania	montgomeryville	NA	NA	NA	Montgomeryville,PA
+-75.946588	41.5386878	locality	approximate	tunkhannock, pa 18657, usa	41.550714	41.5349549	-75.9352391	-75.9631719	18657	united states	wyoming county	pennsylvania	tunkhannock	NA	NA	NA	Tunkhannock,PA
+-92.9093477	37.6114305	locality	approximate	long lane, mo 65590, usa	37.620269	37.602591	-92.8933403	-92.9253551	65590	united states	dallas county	missouri	long lane	NA	NA	NA	Long+Lane,MO
+-94.6274636	39.114053	locality	approximate	kansas city, ks, usa	39.202911	39.0435589	-94.588387	-94.908465	NA	united states	wyandotte county	kansas	kansas city	NA	NA	NA	Kansas+City,KS
+-72.9026064	41.3838782	locality	approximate	hamden, ct, usa	41.4640969	41.327197	-72.851144	-72.974948	NA	united states	new haven county	connecticut	hamden	NA	NA	NA	Hamden,CT
+-77.3230553	39.3607976	locality	approximate	ijamsville, md 21754, usa	39.3935261	39.279277	-77.25161	-77.3571869	21754	united states	frederick county	maryland	ijamsville	NA	NA	NA	Ijamsville,MD
+-86.9223432	20.4229839	natural_feature	approximate	cozumel, mexico	20.5920806	20.2720865	-86.7233526	-87.0251046	NA	mexico	NA	NA	NA	NA	NA	NA	Cozumel+,
+-111.517624	32.977839	locality	approximate	coolidge, az, usa	33.0100319	32.908467	-111.446857	-111.618602	NA	united states	pinal county	arizona	coolidge	NA	NA	NA	Coolidge,AZ
+-83.984684	42.9119753	locality	approximate	durand, mi 48429, usa	42.930557	42.89602	-83.97252	-84.007577	48429	united states	shiawassee county	michigan	durand	NA	NA	NA	Durand,MI
+-78.8657912	43.8970929	locality	approximate	oshawa, on, canada	44.047392	43.8503519	-78.7974061	-78.959296	NA	canada	durham regional municipality	ontario	oshawa	NA	NA	NA	Oshawa+,ON
+-121.6601567	47.4373565	route	geometric_center	deception climbing area trail, north bend, wa 98045, usa	47.4387739802915	47.4360760197085	-121.659059569709	-121.661757530291	98045	united states	king county	washington	north bend	deception climbing area trail	NA	NA	North+Bend+Area,WA
+-94.44355	36.650627	locality	approximate	anderson, mo 64831, usa	36.6701979	36.6392431	-94.430263	-94.461954	64831	united states	mcdonald county	missouri	anderson	NA	NA	NA	Anderson,MO
+-89.9845476	38.6703266	locality	approximate	collinsville, il, usa	38.723686	38.643679	-89.944948	-90.0731478	NA	united states	madison county	illinois	collinsville	NA	NA	NA	Collinsville,IL
+-77.6277679	39.3142682	locality	approximate	brunswick, md, usa	39.336837	39.302267	-77.6024031	-77.65065	NA	united states	frederick county	maryland	brunswick	NA	NA	NA	Brunswick,MD
+-99.43324	27.5255818	neighborhood	approximate	woodlands, laredo, tx 78043, usa	27.528399	27.5232029	-99.4319449	-99.436095	78043	united states	webb county	texas	laredo	NA	NA	NA	Woodlands,TX
+-74.2940378	41.0381525	locality	approximate	wanaque, nj, usa	41.0729321	41.011397	-74.2505949	-74.3243689	NA	united states	passaic county	new jersey	wanaque	NA	NA	NA	Wanaque,NJ
+-93.4227274	44.7132969	locality	approximate	prior lake, mn, usa	44.7611628	44.688373	-93.379526	-93.5120331	NA	united states	scott county	minnesota	prior lake	NA	NA	NA	Prior+Lake,MN
+-87.0258594	41.3167058	locality	approximate	kouts, in 46347, usa	41.3256429	41.307359	-87.0168899	-87.037953	46347	united states	porter county	indiana	kouts	NA	NA	NA	Kouts,IN
+-93.7121656	41.6266555	locality	approximate	urbandale, ia, usa	41.672784	41.61475	-93.6975409	-93.872227	NA	united states	polk county	iowa	urbandale	NA	NA	NA	Urbandale,IA
+-93.6091064	41.6005448	locality	approximate	des moines, ia, usa	41.6540759	41.479264	-93.503215	-93.709817	NA	united states	polk county	iowa	des moines	NA	NA	NA	Des+Moines,IA
+-83.4066132	42.6907443	locality	approximate	waterford charter township, mi, usa	42.7059179	42.6121422	-83.3253951	-83.446139	NA	united states	oakland county	michigan	waterford charter township	NA	NA	NA	Waterford+Twp,MI
+-98.1633432	26.3017374	locality	approximate	edinburg, tx, usa	26.4508411	26.2472498	-98.1102499	-98.2257939	NA	united states	hidalgo county	texas	edinburg	NA	NA	NA	Edinburg,TX
+-100.4370375	31.4637723	locality	approximate	san angelo, tx, usa	31.5266849	31.337597	-100.365258	-100.528817	NA	united states	tom green county	texas	san angelo	NA	NA	NA	San+Angelo,TX
+-71.1286194	41.7695425	locality	approximate	somerset, ma, usa	41.7910639	41.6931802	-71.114489	-71.2012608	NA	united states	bristol county	massachusetts	somerset	NA	NA	NA	Somerset,MA
+-71.1869963	41.9667703	locality	approximate	norton, ma, usa	42.0130768	41.9084	-71.100886	-71.2590869	NA	united states	bristol county	massachusetts	norton	NA	NA	NA	Norton,MA
+-116.3100095	33.6633573	locality	approximate	la quinta, ca, usa	33.7380039	33.583782	-116.225639	-116.3238741	NA	united states	riverside county	california	la quinta	NA	NA	NA	La+Quinta,CA
+-121.953293	36.9752283	locality	approximate	capitola, ca, usa	36.984203	36.965247	-121.9300689	-121.973315	NA	united states	santa cruz county	california	capitola	NA	NA	NA	Capitola,CA
+54.5546793	24.3333089	sublocality_level_1	approximate	mohammed bin zayed city - abu dhabi - united arab emirates	24.3744432	24.2883372	54.597931	54.5287515	NA	united arab emirates	NA	abu dhabi	abu dhabi	NA	NA	NA	Mohammed+Bin+Zayed+City+,
+-70.6722767	42.0417525	locality	approximate	duxbury, ma, usa	42.0973028	42.0031515	-70.6090398	-70.7811009	NA	united states	plymouth county	massachusetts	duxbury	NA	NA	NA	Duxbury,MA
+-86.7483318	34.6992579	locality	approximate	madison, al, usa	34.7612829	34.6626119	-86.7060498	-86.8156318	NA	united states	madison county	alabama	madison	NA	NA	NA	Madison,AL
+-79.7343791	32.8194131	locality	approximate	isle of palms, sc, usa	32.827247	32.7742202	-79.7180577	-79.8112852	NA	united states	charleston county	south carolina	isle of palms	NA	NA	NA	Isle+of+Palm,SC
+-80.2661591	27.1678268	locality	approximate	palm city, fl, usa	27.22541	27.117671	-80.2507569	-80.3318209	NA	united states	martin county	florida	palm city	NA	NA	NA	Palm+City,FL
+-83.7349236	39.6581163	locality	approximate	jamestown, oh 45335, usa	39.676742	39.649521	-83.725036	-83.763948	45335	united states	greene county	ohio	jamestown	NA	NA	NA	Jamestown,OH
+-90.7245722	39.7089361	locality	approximate	griggsville, il 62340, usa	39.715903	39.7007008	-90.713303	-90.737411	62340	united states	pike county	illinois	griggsville	NA	NA	NA	Griggsville,IL
+-90.6717971	40.4592076	locality	approximate	macomb, il 61455, usa	40.5197371	40.43159	-90.6212049	-90.7580129	61455	united states	mcdonough county	illinois	macomb	NA	NA	NA	Macomb,IL
+-75.4701443	39.7111989	locality	approximate	carneys point township, nj, usa	39.7524222	39.6593089	-75.3893669	-75.5039074	NA	united states	salem county	new jersey	carneys point township	NA	NA	NA	Carneys+Point,NJ
+-90.4348506	40.6642065	locality	approximate	avon, il 61415, usa	40.666635	40.6558239	-90.425164	-90.445014	61415	united states	fulton county	illinois	avon	NA	NA	NA	Avon,IL
+-81.3444573	35.7344538	locality	approximate	hickory, nc, usa	35.8072109	35.6553591	-81.23459	-81.403409	NA	united states	catawba county	north carolina	hickory	NA	NA	NA	Hickory,NC
+-82.7192671	28.2441768	locality	approximate	new port richey, fl, usa	28.2747761	28.219294	-82.697123	-82.740092	NA	united states	pasco county	florida	new port richey	NA	NA	NA	New+Port+Richey,FL
+-114.6141315	34.8480597	locality	approximate	needles, ca, usa	34.902241	34.748491	-114.561831	-114.662302	NA	united states	san bernardino county	california	needles	NA	NA	NA	Needles,CA
+-91.2351393	43.8844092	locality	approximate	onalaska, wi, usa	43.9238621	43.8617219	-91.1497359	-91.2494399	NA	united states	la crosse county	wisconsin	onalaska	NA	NA	NA	Onalaska,WI
+-114.8345117	35.9782216	locality	approximate	boulder city, nv, usa	36.011749	35.6765999	-114.7696191	-115.102623	NA	united states	clark county	nevada	boulder city	NA	NA	NA	Boulder+City,NV
+-94.7880057	36.9545117	locality	approximate	quapaw, ok 74363, usa	36.961649	36.939772	-94.7818861	-94.801985	74363	united states	ottawa county	oklahoma	quapaw	NA	NA	NA	Quapaw,OK
+-83.6662854	34.3876013	locality	approximate	lula, ga, usa	34.4237198	34.3650161	-83.6407019	-83.698404	NA	united states	hall county	georgia	lula	NA	NA	NA	Lula,GA
+-89.0676125	42.8352835	locality	approximate	edgerton, wi 53534, usa	42.8606559	42.819595	-89.042577	-89.102171	53534	united states	rock county	wisconsin	edgerton	NA	NA	NA	Edgerton,WI
+-106.2224636	31.6747915	route	geometric_center	greendale, el paso, tx 79928, usa	31.676766	31.672499	-106.2196631	-106.2245389	79928	united states	el paso county	texas	el paso	greendale	NA	NA	Greendale,AL
+-85.0007653	32.4709761	locality	approximate	phenix city, al, usa	32.5418999	32.3642969	-84.96303	-85.094198	NA	united states	russell county	alabama	phenix city	NA	NA	NA	Phenix+City,AL
+-79.7919754	36.0726354	locality	approximate	greensboro, nc, usa	36.2153239	35.985195	-79.659866	-80.0068909	NA	united states	guilford county	north carolina	greensboro	NA	NA	NA	Greensboro,NC
+-105.0897058	39.9935959	locality	approximate	lafayette, co, usa	40.047173	39.957782	-105.052774	-105.1570779	NA	united states	boulder county	colorado	lafayette	NA	NA	NA	Lafayette,CO
+-84.1224036	42.8105672	administrative_area_level_3	approximate	antrim, mi, usa	42.866317	42.776639	-84.0395169	-84.161779	NA	united states	shiawassee county	michigan	NA	NA	NA	NA	Antrim+Township,MI
+-101.2922906	48.2329668	locality	approximate	minot, nd, usa	48.283041	48.1916439	-101.1984389	-101.3429519	NA	united states	ward county	north dakota	minot	NA	NA	NA	Minot,ND
+-83.1763145	42.3222599	locality	approximate	dearborn, mi, usa	42.3519159	42.277285	-83.1397168	-83.2871019	NA	united states	wayne county	michigan	dearborn	NA	NA	NA	Dearborn,MI
+-89.2898397	43.0124984	locality	approximate	mcfarland, wi, usa	43.0406058	42.9998749	-89.2705989	-89.3151199	NA	united states	dane county	wisconsin	mcfarland	NA	NA	NA	McFarland,WI
+-71.5522874	42.3459271	locality	approximate	marlborough, ma, usa	42.3806039	42.311182	-71.475335	-71.6259809	NA	united states	middlesex county	massachusetts	marlborough	NA	NA	NA	Marlborough,MA
+-73.646795	41.5234268	locality	approximate	holmes, ny 12531, usa	41.5317801	41.5150724	-73.6307876	-73.6628024	12531	united states	dutchess county	new york	holmes	NA	NA	NA	Holmes,NY
+-117.7325848	33.9898188	locality	approximate	chino hills, ca, usa	34.0238109	33.8708309	-117.6548851	-117.8028909	NA	united states	san bernardino county	california	chino hills	NA	NA	NA	Chino+Hills,CA
+-100.7837392	46.8083268	locality	approximate	bismarck, nd, usa	46.8670479	46.751104	-100.688513	-100.8455962	NA	united states	burleigh county	north dakota	bismarck	NA	NA	NA	Bismarck,ND
+-105.0166498	39.613321	locality	approximate	littleton, co, usa	39.629955	39.561924	-104.972789	-105.061999	NA	united states	arapahoe county	colorado	littleton	NA	NA	NA	Littleton+,CO
+-111.5468301	33.177294	locality	approximate	san tan valley, az, usa	33.2636663	33.1181079	-111.4929485	-111.6170598	NA	united states	pinal county	arizona	san tan valley	NA	NA	NA	San+Tan+Valley,AZ
+-87.7319495	41.7306407	locality	approximate	hometown, il, usa	41.7351331	41.726933	-87.7215509	-87.741152	NA	united states	cook county	illinois	hometown	NA	NA	NA	Hometown,IL
+-71.1522765	42.4792618	locality	approximate	woburn, ma, usa	42.5300219	42.4497949	-71.1120968	-71.207035	NA	united states	middlesex county	massachusetts	woburn	NA	NA	NA	Woburn,MA
+-91.1564961	30.6485191	locality	approximate	zachary, la, usa	30.7087839	30.611586	-91.089445	-91.234016	NA	united states	east baton rouge parish	louisiana	zachary	NA	NA	NA	Zachary,LA
+-76.3452218	37.0298687	locality	approximate	hampton, va, usa	37.1130439	36.9247721	-76.2707076	-76.45117	NA	united states	NA	virginia	hampton	NA	NA	NA	Hampton,VA
+-73.8587461	41.0762077	locality	approximate	tarrytown, ny, usa	41.0869579	41.046445	-73.8309938	-73.8709014	NA	united states	westchester county	new york	tarrytown	NA	NA	NA	Tarrytown,NY
+-84.109083	33.3459495	locality	approximate	locust grove, ga, usa	33.385356	33.297707	-84.0536229	-84.1504549	NA	united states	henry county	georgia	locust grove	NA	NA	NA	Locust+Grove,GA
+-72.4036961	42.3931455	locality	approximate	pelham, ma, usa	42.4201915	42.3366009	-72.3613387	-72.483786	NA	united states	hampshire county	massachusetts	pelham	NA	NA	NA	Pelham,MA
+-118.5506158	34.1494848	neighborhood	approximate	tarzana, los angeles, ca, usa	34.1866364	34.126406	-118.5272546	-118.5815469	NA	united states	los angeles county	california	los angeles	NA	NA	NA	Tarzana,CA
+-90.9200987	30.2385294	locality	approximate	gonzales, la 70737, usa	30.2546691	30.181371	-90.896361	-90.9540238	70737	united states	ascension parish	louisiana	gonzales	NA	NA	NA	Gonzalas,LA
+-95.2621553	29.9988312	locality	approximate	humble, tx, usa	30.0325079	29.9538411	-95.2436929	-95.2876929	NA	united states	harris county	texas	humble	NA	NA	NA	Humble,TX
+-71.9097394	42.635545	locality	approximate	ashburnham, ma, usa	42.7135641	42.5948779	-71.8565189	-71.9902299	NA	united states	worcester county	massachusetts	ashburnham	NA	NA	NA	Ashburnham,MA
+-117.2730931	33.6850215	locality	approximate	canyon lake, ca, usa	33.7142658	33.670339	-117.2346291	-117.2840189	NA	united states	riverside county	california	canyon lake	NA	NA	NA	Canyon+Lake,CA
+-83.4087708	33.8628959	locality	approximate	watkinsville, ga, usa	33.881041	33.8465379	-83.3869479	-83.424819	NA	united states	oconee county	georgia	watkinsville	NA	NA	NA	Watkinsville,GA
+-85.7371847	38.2775702	locality	approximate	jeffersonville, in, usa	38.4029244	38.2671719	-85.6338408	-85.757965	NA	united states	clark county	indiana	jeffersonville	NA	NA	NA	Jeffersonville,IN
+warning	warning	NA	NA	NA	warning	warning	warning	warning	warning	warning	warning	warning	warning	warning	warning	warning	warning
+-91.0501057	31.8204396	neighborhood	approximate	lorman, ms 39096, usa	31.8299201	31.8109581	-91.0340983	-91.0661131	39096	united states	jefferson county	mississippi	NA	NA	NA	NA	Lorman,MS
+-115.6849812	54.1424043	locality	approximate	whitecourt, ab, canada	54.1540489	54.11573	-115.599587	-115.7264498	NA	canada	division no. 13	alberta	whitecourt	NA	NA	NA	Whitecourt+,AB
+-78.9739156	39.4409277	locality	approximate	keyser, wv, usa	39.4525219	39.4278989	-78.955669	-78.998911	NA	united states	mineral county	west virginia	keyser	NA	NA	NA	Keyser,WV
+-84.1965855	33.1167891	locality	approximate	milner, ga, usa	33.134068	33.1014161	-84.1799389	-84.206371	NA	united states	lamar county	georgia	milner	NA	NA	NA	Milner,GA
+-74.511172	40.3025907	locality	approximate	cranbury township, nj, usa	40.338721	40.2766079	-74.4760659	-74.567596	NA	united states	middlesex county	new jersey	cranbury township	NA	NA	NA	Cranbury,NJ
+-85.3194208	41.2306034	locality	approximate	churubusco, in 46723, usa	41.2409169	41.223727	-85.309506	-85.3365909	46723	united states	whitley county	indiana	churubusco	NA	NA	NA	Churubuaco,IN
+-87.7119324	30.5538048	locality	approximate	robertsdale, al, usa	30.570811	30.530996	-87.6754759	-87.7343328	NA	united states	baldwin county	alabama	robertsdale	NA	NA	NA	Robertsdale,AL
+-80.7236804	35.1168131	locality	approximate	matthews, nc, usa	35.173344	35.0809749	-80.654169	-80.7634539	NA	united states	mecklenburg county	north carolina	matthews	NA	NA	NA	Matthews,NC
+-89.0187222	42.6827885	locality	approximate	janesville, wi, usa	42.75891	42.626582	-88.9388779	-89.08051	NA	united states	rock county	wisconsin	janesville	NA	NA	NA	Janesville,WI
+-84.2032767	40.0394982	locality	approximate	troy, oh, usa	40.0760379	40.009563	-84.1735889	-84.268427	NA	united states	miami county	ohio	troy	NA	NA	NA	Troy,OH
+-94.8191285	38.8813958	locality	approximate	olathe, ks, usa	38.9528601	38.8054929	-94.7140479	-94.928023	NA	united states	johnson county	kansas	olathe	NA	NA	NA	Olathe,KS
+-73.3806748	41.2009294	locality	approximate	weston, ct, usa	41.274031	41.1748219	-73.3237993	-73.4300649	NA	united states	fairfield county	connecticut	weston	NA	NA	NA	Weston,CT
+-84.8673956	39.0687387	locality	approximate	petersburg, ky, usa	39.085282	39.027043	-84.8151769	-84.897336	NA	united states	boone county	kentucky	petersburg	NA	NA	NA	Petersburg,KY
+-95.0586322	46.9221813	locality	approximate	park rapids, mn 56470, usa	46.9456057	46.8799599	-95.025297	-95.100582	56470	united states	hubbard county	minnesota	park rapids	NA	NA	NA	Park+Rapids,MN
+-118.4694832	33.9850469	neighborhood	approximate	venice, los angeles, ca, usa	34.0101101	33.964921	-118.4401573	-118.483273	NA	united states	los angeles county	california	los angeles	NA	NA	NA	Venice,CA
+77.5945627	12.9715987	locality	approximate	bengaluru, karnataka, india	13.173706	12.7342888	77.8826809	77.3791981	NA	india	bangalore urban	karnataka	bengaluru	NA	NA	NA	Bangalore+,
+-87.6355995	41.506146	locality	approximate	chicago heights, il, usa	41.5433341	41.4812341	-87.5967419	-87.674545	NA	united states	cook county	illinois	chicago heights	NA	NA	NA	Chicago+Heights,IL
+-88.0809036	41.9575285	locality	approximate	bloomingdale, il, usa	41.9692389	41.9308799	-88.0492198	-88.1408121	NA	united states	dupage county	illinois	bloomingdale	NA	NA	NA	Bloomingdale,IL
+-107.3247762	39.5505376	locality	approximate	glenwood springs, co 81601, usa	39.5695679	39.4945	-107.305158	-107.3698591	81601	united states	garfield county	colorado	glenwood springs	NA	NA	NA	Glenwood+Springs,CO
+-91.6663523	44.0553908	locality	approximate	winona, mn, usa	44.1291589	43.977526	-91.599655	-91.720462	NA	united states	winona county	minnesota	winona	NA	NA	NA	Winona,MN
+-92.387655	35.2339712	locality	approximate	greenbrier, ar 72058, usa	35.2536991	35.20625	-92.3586239	-92.4093539	72058	united states	faulkner county	arkansas	greenbrier	NA	NA	NA	Greenbrier,AR
+-97.4016697	30.8782423	locality	approximate	holland, tx 76534, usa	30.897172	30.871676	-97.38958	-97.41704	76534	united states	bell county	texas	holland	NA	NA	NA	Holland,TX
+-95.6010668	33.1384479	locality	approximate	sulphur springs, tx 75482, usa	33.190797	33.092034	-95.5554189	-95.6646509	75482	united states	hopkins county	texas	sulphur springs	NA	NA	NA	Sulphur+Springs,TX
+-71.4703509	43.5278546	locality	approximate	laconia, nh, usa	43.6277455	43.5016059	-71.4295482	-71.534721	NA	united states	belknap county	new hampshire	laconia	NA	NA	NA	Laconia,NH
+-97.9413941	29.8832749	locality	approximate	san marcos, tx, usa	29.9605819	29.777154	-97.8419149	-98.012087	NA	united states	hays county	texas	san marcos	NA	NA	NA	San+Marcos,TX
+-73.0931641	41.3164856	locality	approximate	shelton, ct, usa	41.376696	41.254596	-73.065051	-73.2049109	NA	united states	fairfield county	connecticut	shelton	NA	NA	NA	Shelton,CT
+-89.3639378	30.3946392	locality	approximate	diamondhead, ms, usa	30.420511	30.348914	-89.340947	-89.4061568	NA	united states	hancock county	mississippi	diamondhead	NA	NA	NA	Diamondhead,MS
+-71.6418744	41.3832162	locality	approximate	charlestown, ri, usa	41.4612459	41.3307148	-71.5952319	-71.7310239	NA	united states	washington county	rhode island	charlestown	NA	NA	NA	Charlestown,RI
+-112.7168305	32.9478236	locality	approximate	gila bend, az, usa	33.027057	32.9254779	-112.6461241	-112.873693	NA	united states	maricopa county	arizona	gila bend	NA	NA	NA	Gila+Bend,AZ
+-86.37416	39.6128243	locality	approximate	mooresville, in, usa	39.6310431	39.5596779	-86.3356061	-86.398687	NA	united states	morgan county	indiana	mooresville	NA	NA	NA	Mooresville,IN
+-83.4643551	32.232644	administrative_area_level_2	approximate	pulaski county, ga, usa	32.402358	32.1028431	-83.291106	-83.615846	NA	united states	pulaski county	georgia	NA	NA	NA	NA	Pulaski+County,GA
+-83.4721177	32.2837731	locality	approximate	hawkinsville, ga 31036, usa	32.3381259	32.255949	-83.4522438	-83.5228809	31036	united states	pulaski county	georgia	hawkinsville	NA	NA	NA	Hawkinsville,GA
+-82.0373039	28.9274834	locality	approximate	oxford, fl 34484, usa	28.9335552	28.9231354	-82.0329309	-82.0454288	34484	united states	sumter county	florida	oxford	NA	NA	NA	Oxford,FL
+-120.9966033	37.7974273	locality	approximate	escalon, ca 95320, usa	37.8069239	37.773072	-120.9782891	-121.0152641	95320	united states	san joaquin county	california	escalon	NA	NA	NA	Escalon,CA
+-89.169809	40.3144833	locality	approximate	mclean, il 61754, usa	40.3199659	40.30925	-89.159801	-89.1790099	61754	united states	mclean county	illinois	mclean	NA	NA	NA	McLean,IL
+-75.2916118	45.5483729	neighborhood	approximate	rockland, clarence-rockland, on, canada	45.5665839	45.5253395	-75.2564133	-75.3224911	NA	canada	prescott and russell united counties	ontario	clarence-rockland	NA	NA	NA	Rockland+,ON
+-83.9843953	34.5261465	locality	approximate	dahlonega, ga, usa	34.5680559	34.487626	-83.9505821	-84.0152168	NA	united states	lumpkin county	georgia	dahlonega	NA	NA	NA	Dahlonega,GA
+-73.8183804	43.3365373	administrative_area_level_3	approximate	lake luzerne, ny, usa	43.4081399	43.2236865	-73.7409857	-73.8827617	NA	united states	warren county	new york	NA	NA	NA	NA	Lake+Luzerne,NY
+-104.8319195	39.7294319	locality	approximate	aurora, co, usa	39.826671	39.550999	-104.4889061	-104.884761	NA	united states	arapahoe county	colorado	aurora	NA	NA	NA	Aurora,CO
+-80.1789351	26.2517482	locality	approximate	coconut creek, fl, usa	26.327858	26.214281	-80.1665681	-80.2029358	NA	united states	broward county	florida	coconut creek	NA	NA	NA	Coconut+Creek,FL
+-115.530267	32.9786566	locality	approximate	brawley, ca 92227, usa	33.003461	32.950975	-115.500292	-115.570962	92227	united states	imperial county	california	brawley	NA	NA	NA	Brawley,CA
+-155.1291667	19.8997222	locality	approximate	hakalau, hi 96728, usa	19.9102136	19.8892301	-155.1131593	-155.1451741	96728	united states	hawaii county	hawaii	hakalau	NA	NA	NA	Hakalau,HI
+-71.1166556	43.6853516	locality	approximate	ossipee, nh, usa	43.832837	43.636175	-71.0130888	-71.280052	NA	united states	carroll county	new hampshire	ossipee	NA	NA	NA	Ossipee,NH
+-70.8125232	44.2503507	locality	approximate	stoneham, me, usa	44.312894	44.2063429	-70.7869218	-70.984829	NA	united states	oxford county	maine	stoneham	NA	NA	NA	Stoneham,ME
+-85.3860654	33.7345495	locality	approximate	muscadine, al 36269, usa	33.7438282	33.7252698	-85.370058	-85.4020728	36269	united states	cleburne county	alabama	muscadine	NA	NA	NA	Muscadine,AL
+-71.2221024	43.6963	locality	approximate	tuftonboro, nh, usa	43.770575	43.5945021	-71.186196	-71.3388923	NA	united states	carroll county	new hampshire	tuftonboro	NA	NA	NA	Tuftonboro,NH
+-82.2195344	27.9941885	locality	approximate	dover, fl 33527, usa	28.0068749	27.981619	-82.2033	-82.2362299	33527	united states	hillsborough county	florida	dover	NA	NA	NA	Dover,FL
+-71.2197925	43.8789621	sublocality_level_1	approximate	chocorua, tamworth, nh 03817, usa	43.8870043	43.8709188	-71.2037851	-71.2357999	03817	united states	carroll county	new hampshire	tamworth	NA	NA	NA	Chocorua,NH
+-73.9490258	41.0064864	locality	approximate	northvale, nj, usa	41.022542	40.995294	-73.9383808	-73.9652528	NA	united states	bergen county	new jersey	northvale	NA	NA	NA	Nortvale,NJ
+-104.9811468	39.8961821	locality	approximate	northglenn, co, usa	39.92152	39.8678121	-104.944577	-105.015843	NA	united states	adams county	colorado	northglenn	NA	NA	NA	Northglenn,CO
+-96.8899636	32.9756415	locality	approximate	carrollton, tx, usa	33.0547039	32.918028	-96.8384611	-96.9601349	NA	united states	dallas county	texas	carrollton	NA	NA	NA	Carrollton,TX
+-87.3328139	41.4828144	locality	approximate	merrillville, in, usa	41.5225359	41.4344849	-87.219537	-87.3939368	NA	united states	lake county	indiana	merrillville	NA	NA	NA	Merriville,IN
+-96.6388833	32.912624	locality	approximate	garland, tx, usa	32.9854148	32.8302751	-96.5055189	-96.7059039	NA	united states	dallas county	texas	garland	NA	NA	NA	Garland,TX
+-117.3794834	33.1958696	locality	approximate	oceanside, ca, usa	33.299233	33.1527181	-117.2365761	-117.3985069	NA	united states	san diego county	california	oceanside	NA	NA	NA	Oceanside,CA
+-89.3300461	30.3088076	locality	approximate	bay saint louis, ms, usa	30.3435326	30.2937711	-89.3222033	-89.3683461	NA	united states	hancock county	mississippi	bay saint louis	NA	NA	NA	Bay+Saint+Louis,MS
+-79.9000499	40.3922914	locality	approximate	munhall, pa, usa	40.4159689	40.3749691	-79.883771	-79.917672	NA	united states	allegheny county	pennsylvania	munhall	NA	NA	NA	Munhall,PA
+-81.7075355	25.9397412	locality	approximate	marco island, fl, usa	25.9744292	25.8952671	-81.6482241	-81.7503124	NA	united states	collier county	florida	marco island	NA	NA	NA	Marco+Island,FL
+-95.4882896	32.6631884	locality	approximate	mineola, tx 75773, usa	32.6908419	32.607687	-95.4394041	-95.517366	75773	united states	wood county	texas	mineola	NA	NA	NA	Mineola,TX
+-82.3959511	35.5140058	locality	approximate	fairview, nc 28730, usa	35.5434269	35.5013639	-82.3630891	-82.436898	28730	united states	buncombe county	north carolina	fairview	NA	NA	NA	Fairview,NC
+-105.7424855	32.9573133	locality	approximate	cloudcroft, nm 88317, usa	32.9642111	32.9445569	-105.702767	-105.7500361	88317	united states	otero county	new mexico	cloudcroft	NA	NA	NA	Cloudcroft,NM
+-105.7741541	33.1575854	locality	approximate	mescalero, nm, usa	33.1929541	33.1075481	-105.7360179	-105.8273168	NA	united states	otero county	new mexico	mescalero	NA	NA	NA	Mescalero,NM
+-96.56388	32.9029017	locality	approximate	rowlett, tx, usa	32.975361	32.8698006	-96.5017869	-96.5931349	NA	united states	dallas county	texas	rowlett	NA	NA	NA	Rowlett,TX
+-76.4343173	38.1872404	locality	approximate	saint marys city, md, usa	38.193382	38.178576	-76.4188428	-76.4375781	NA	united states	st. mary's county	maryland	saint marys city	NA	NA	NA	Saint+Mary's+City,MD
+-110.7709348	32.6109054	locality	approximate	oracle, az 85623, usa	32.6469121	32.5882469	-110.7408251	-110.829925	85623	united states	pinal county	arizona	oracle	NA	NA	NA	Oracle,AZ
+-74.9060053	38.9351125	locality	approximate	cape may, nj 08204, usa	38.9501248	38.928588	-74.8716054	-74.9388011	08204	united states	cape may county	new jersey	cape may	NA	NA	NA	Cape+May,NJ
+-82.6004369	38.4048042	locality	approximate	catlettsburg, ky, usa	38.4423601	38.3972559	-82.594787	-82.6126649	NA	united states	boyd county	kentucky	catlettsburg	NA	NA	NA	Catlettsburg+,KY
+-74.4229266	39.3642834	locality	approximate	atlantic city, nj, usa	39.4169631	39.3430341	-74.4076063	-74.4990897	NA	united states	atlantic county	new jersey	atlantic city	NA	NA	NA	Atlantic+City,NJ
+-159.3379818	22.0881391	locality	approximate	kapaa, hi 96746, usa	22.1123609	22.0618269	-159.3074841	-159.4019899	96746	united states	kauai county	hawaii	kapaa	NA	NA	NA	Kapahi,HI
+-82.5514869	35.5950581	locality	approximate	asheville, nc, usa	35.656299	35.421565	-82.4599379	-82.670873	NA	united states	buncombe county	north carolina	asheville	NA	NA	NA	Asheville,NC
+-99.1653425	32.1262493	locality	approximate	cross plains, tx 76443, usa	32.1389579	32.1180369	-99.15688	-99.174012	76443	united states	callahan county	texas	cross plains	NA	NA	NA	Cross+Plains,TX
+-81.986187	35.699889	route	geometric_center	old morganton road, marion, nc 28752, usa	35.7021084802915	35.6994105197085	-81.9833096	-81.989542	28752	united states	mcdowell county	north carolina	marion	old morganton road	NA	NA	Marion-Morganton,NC
+-71.8022955	42.5834228	locality	approximate	fitchburg, ma, usa	42.637788	42.543889	-71.7479799	-71.863036	NA	united states	worcester county	massachusetts	fitchburg	NA	NA	NA	Fitchburg,MA
+-74.8909988	39.934002	locality	approximate	mount laurel, nj, usa	40.0007449	39.91428	-74.8485501	-74.983717	NA	united states	burlington county	new jersey	mount laurel	NA	NA	NA	Mount+Laurel,NJ
+-111.9666355	43.4696366	locality	approximate	ammon, id, usa	43.5113549	43.443166	-111.896943	-111.9842339	NA	united states	bonneville county	idaho	ammon	NA	NA	NA	Ammon,ID
+-82.2609685	36.4742705	locality	approximate	bluff city, tn, usa	36.4771841	36.4257899	-82.2538619	-82.317604	NA	united states	sullivan county	tennessee	bluff city	NA	NA	NA	Bluff+City,TN
+-77.1807842	38.2664512	locality	approximate	king george, va 22485, usa	38.3175821	38.2529211	-77.148511	-77.2322059	22485	united states	king george county	virginia	king george	NA	NA	NA	King+George,VA
+-75.6054882	39.9606643	locality	approximate	west chester, pa, usa	39.9740101	39.94636	-75.588142	-75.62312	NA	united states	chester county	pennsylvania	west chester	NA	NA	NA	West+Chester,PA
+-77.0368707	38.9071923	locality	approximate	washington, dc, usa	38.995548	38.8031495	-76.909393	-77.11974	NA	united states	NA	district of columbia	washington	NA	NA	NA	Rehoboth+Beach,DC
+-89.7678746	39.5008866	locality	approximate	virden, il, usa	39.526831	39.490113	-89.7576979	-89.7871491	NA	united states	macoupin county	illinois	virden	NA	NA	NA	Virden,IL
+-81.9293007	38.4500905	locality	approximate	teays valley, wv, usa	38.4584199	38.4331958	-81.843296	-81.996455	NA	united states	putnam county	west virginia	teays valley	NA	NA	NA	Teays+Valley,WV
+-97.336111	37.688889	locality	approximate	wichita, ks, usa	37.8401999	37.557822	-97.153025	-97.534892	NA	united states	sedgwick county	kansas	wichita	NA	NA	NA	Wichita,KS
+-75.5397878	39.7390721	locality	approximate	wilmington, de, usa	39.77301	39.686794	-75.4705029	-75.588466	NA	united states	new castle county	delaware	wilmington	NA	NA	NA	Wilmington,DE
+-68.6935362	44.8265844	locality	approximate	eddington, me, usa	44.8648592	44.741019	-68.554681	-68.6994466	NA	united states	penobscot county	maine	eddington	NA	NA	NA	Eddington,ME
+-94.4191177	39.2461138	locality	approximate	liberty, mo, usa	39.2959869	39.175747	-94.371966	-94.4798551	NA	united states	clay county	missouri	liberty	NA	NA	NA	Liberty,MO
+-95.7697131	34.9334298	locality	approximate	mcalester, ok 74501, usa	34.967205	34.870818	-95.723596	-95.8335055	74501	united states	pittsburg county	oklahoma	mcalester	NA	NA	NA	McAlester,OK
+-89.6501481	39.7817213	locality	approximate	springfield, il, usa	39.874049	39.6536259	-89.5684858	-89.7731769	NA	united states	sangamon county	illinois	springfield	NA	NA	NA	Springfield,IL
+-87.8003437	42.1816918	locality	approximate	highland park, il, usa	42.223163	42.152361	-87.759192	-87.8522588	NA	united states	lake county	illinois	highland park	NA	NA	NA	Highland+Park,IL
+-72.5441445	42.0027181	locality	approximate	enfield, ct, usa	42.0343949	41.934297	-72.4927289	-72.623434	NA	united states	hartford county	connecticut	enfield	NA	NA	NA	Enfield,CT
+-74.1435843	41.0886216	locality	approximate	mahwah, nj, usa	41.1339414	41.0220879	-74.1037871	-74.248939	NA	united states	bergen county	new jersey	mahwah	NA	NA	NA	Mahwah,NJ
+-93.3327283	45.076076	locality	approximate	brooklyn center, mn, usa	45.0873148	45.0399589	-93.2808259	-93.3511291	NA	united states	hennepin county	minnesota	brooklyn center	NA	NA	NA	Brooklyn+Center,MN
+-92.5815759	38.3483636	locality	approximate	eldon, mo 65026, usa	38.3657898	38.3278701	-92.551272	-92.603665	65026	united states	miller county	missouri	eldon	NA	NA	NA	Eldon,MO
+-117.1858759	34.5008311	locality	approximate	apple valley, ca, usa	34.6471219	34.4279849	-117.14986	-117.2873239	NA	united states	san bernardino county	california	apple valley	NA	NA	NA	Apple+Valley,CA
+-87.1761455	41.5758707	locality	approximate	portage, in, usa	41.6489675	41.536094	-87.1243049	-87.2227361	NA	united states	porter county	indiana	portage	NA	NA	NA	Portage,IN
+-117.0382471	32.5149469	locality	approximate	tijuana, baja california, mexico	32.5556323	32.4382675	-116.821037	-117.124208	NA	mexico	tijuana	baja california	tijuana	NA	NA	NA	Tijuana+,
+-117.2296717	33.9424658	locality	approximate	moreno valley, ca, usa	33.984516	33.859073	-117.0880771	-117.2967751	NA	united states	riverside county	california	moreno valley	NA	NA	NA	Moreno+Valley,CA
+-93.0899578	44.9537029	locality	approximate	saint paul, mn, usa	44.992016	44.887399	-93.0043198	-93.207787	NA	united states	ramsey county	minnesota	saint paul	NA	NA	NA	St.+Paul,MN
+-75.8813075	41.2459149	locality	approximate	wilkes-barre, pa, usa	41.2729811	41.2216809	-75.8264389	-75.9257419	NA	united states	luzerne county	pennsylvania	wilkes-barre	NA	NA	NA	Wilkes+Barre,PA
+-81.5884561	40.031183	locality	approximate	cambridge, oh 43725, usa	40.060147	39.9845538	-81.559816	-81.625727	43725	united states	guernsey county	ohio	cambridge	NA	NA	NA	Cambridge,OH
+-87.8956185	41.9172526	locality	approximate	northlake, il, usa	41.936814	41.899702	-87.881462	-87.9204649	NA	united states	cook county	illinois	northlake	NA	NA	NA	Northlake,IL
+-93.260998	31.1435194	locality	approximate	leesville, la, usa	31.1632161	31.11745	-93.251637	-93.303517	NA	united states	vernon parish	louisiana	leesville	NA	NA	NA	Leesville,LA
+-97.0336417	35.9739448	locality	approximate	perkins, ok 74059, usa	35.9926109	35.9654041	-97.0100729	-97.052539	74059	united states	payne county	oklahoma	perkins	NA	NA	NA	Perkins,OK
+-89.4505802	29.352946	locality	approximate	buras-triumph, la, usa	29.370052	29.3257729	-89.4397579	-89.5625	NA	united states	plaquemines parish	louisiana	buras-triumph	NA	NA	NA	Buras,LA
+-75.462993	44.3367281	locality	approximate	gouverneur, ny 13642, usa	44.3487311	44.324123	-75.443834	-75.492153	13642	united states	st. lawrence county	new york	gouverneur	NA	NA	NA	Gouverneur,NY
+-80.2962555	26.007765	locality	approximate	pembroke pines, fl, usa	26.061021	25.9921689	-80.2133689	-80.4422089	NA	united states	broward county	florida	pembroke pines	NA	NA	NA	Pembroke+Pines,FL
+-82.9854553	39.1267349	locality	approximate	waverly, oh 45690, usa	39.1469581	39.1051919	-82.957917	-83.00769	45690	united states	pike county	ohio	waverly	NA	NA	NA	Waverly,OH
+-73.91097	41.5964825	locality	approximate	wappingers falls, ny 12590, usa	41.6090329	41.589154	-73.9008071	-73.9319491	12590	united states	dutchess county	new york	wappingers falls	NA	NA	NA	Wappinger's+Falls,NY
+-74.7294313	40.2778055	locality	approximate	lawrence township, nj, usa	40.3605019	40.2398109	-74.664039	-74.76239	NA	united states	mercer county	new jersey	lawrence township	NA	NA	NA	Lawrence,NJ
+-75.1690942	44.5956163	locality	approximate	canton, ny 13617, usa	44.6231171	44.5791531	-75.1341531	-75.19394	13617	united states	st. lawrence county	new york	canton	NA	NA	NA	Canton,NY
+-82.0223137	26.4489695	locality	approximate	sanibel, fl, usa	26.493741	26.421895	-82.0134709	-82.1822786	NA	united states	lee county	florida	sanibel	NA	NA	NA	Sanibel,FL
+-76.2858726	36.8507689	locality	approximate	norfolk, va, usa	36.9692977	36.820757	-76.1763249	-76.3455689	NA	united states	NA	virginia	norfolk	NA	NA	NA	Downtown+Norfolk,VA
+-84.1768795	39.0770072	locality	approximate	batavia, oh 45103, usa	39.0910511	39.0674361	-84.165682	-84.198929	45103	united states	clermont county	ohio	batavia	NA	NA	NA	Batavia,OH
+-94.7335709	38.9536174	locality	approximate	lenexa, ks, usa	38.9929921	38.915035	-94.705003	-94.9089621	NA	united states	johnson county	kansas	lenexa	NA	NA	NA	Lenexa,KS
+-79.6903316	44.3893556	locality	approximate	barrie, on, canada	44.424403	44.2938755	-79.5858192	-79.7456249	NA	canada	simcoe county	ontario	barrie	NA	NA	NA	Barrie+,ON
+-76.8483061	39.0992752	locality	approximate	laurel, md, usa	39.114588	39.0762289	-76.830564	-76.889411	NA	united states	prince george's county	maryland	laurel	NA	NA	NA	Laurel,MD
+-75.6971931	45.4215296	locality	approximate	ottawa, on, canada	45.5375801	44.962733	-75.2465979	-76.3539158	NA	canada	ottawa division	ontario	ottawa	NA	NA	NA	Ottawa,ON
+-117.2788973	33.0208265	sublocality_level_1	approximate	cardiff, encinitas, ca 92007, usa	33.036291	33.0067839	-117.2539399	-117.2923111	92007	united states	san diego county	california	encinitas	NA	NA	NA	Cardiff+by+the+Sea,CA
+-80.0534923	44.0033629	locality	approximate	mono, on, canada	44.123255	43.922739	-79.951141	-80.1717311	NA	canada	dufferin county	ontario	mono	NA	NA	NA	Mono+,ON
+-79.6170044	42.9035374	sublocality_level_1	approximate	dunnville, haldimand, on, canada	42.9249629	42.8961313	-79.5773984	-79.6380187	NA	canada	haldimand county	ontario	NA	NA	NA	NA	Dunnville,ON
+-76.9324752	39.1112193	locality	approximate	burtonsville, md, usa	39.137683	39.0786581	-76.8886524	-76.9573794	NA	united states	montgomery county	maryland	burtonsville	NA	NA	NA	Burtonsville,MD
+-71.5723953	43.1938516	administrative_area_level_1	approximate	new hampshire, usa	45.3054761	42.696985	-70.6026612	-72.557185	NA	united states	NA	new hampshire	NA	NA	NA	NA	,NH
+-117.9461734	33.9319578	locality	approximate	la habra, ca, usa	33.946039	33.9062258	-117.9190231	-117.9766969	NA	united states	orange county	california	la habra	NA	NA	NA	La+Habra,CA
+-76.7441246	36.808483	locality	approximate	windsor, va 23487, usa	36.8310041	36.7927589	-76.711499	-76.7630508	23487	united states	isle of wight county	virginia	windsor	NA	NA	NA	Windsor,VA
+-97.1650128	33.4881671	locality	approximate	valley view, tx, usa	33.5490081	33.4238999	-97.1534849	-97.1760899	NA	united states	cooke county	texas	valley view	NA	NA	NA	Valley+View,TX
+-83.0929644	39.8814519	locality	approximate	grove city, oh, usa	39.9072321	39.8214859	-83.008599	-83.1212429	NA	united states	franklin county	ohio	grove city	NA	NA	NA	Grove+City,OH
+-82.9968419	38.879518	locality	approximate	lucasville, oh 45648, usa	38.8899599	38.8641701	-82.967629	-83.0174969	45648	united states	scioto county	ohio	lucasville	NA	NA	NA	Lucasville,OH
+-88.6503254	33.6076186	locality	approximate	west point, ms 39773, usa	33.6366229	33.564231	-88.607101	-88.707466	39773	united states	clay county	mississippi	west point	NA	NA	NA	West+Point,MS
+-122.3045815	47.9445396	locality	approximate	mukilteo, wa, usa	47.9524081	47.873968	-122.279944	-122.3276373	NA	united states	snohomish county	washington	mukilteo	NA	NA	NA	Mukilteo,WA
+-109.2375849	34.8498943	point_of_interest	approximate	kaposfő, witch wells, 61 191, 7523 hungary	34.8512432802915	34.8485453197085	-109.236235919709	-109.238933880291	7523	hungary	kadarkúti	somogy county	kaposfő	61	191	witch wells	Witch+Wells,AZ
+-73.3362298	40.8048207	locality	approximate	dix hills, ny, usa	40.838557	40.7670869	-73.293477	-73.382878	NA	united states	suffolk county	new york	dix hills	NA	NA	NA	Dix+Hills,NY
+-82.5492999	35.8264981	locality	approximate	mars hill, nc 28754, usa	35.8463909	35.8079971	-82.5353879	-82.561127	28754	united states	madison county	north carolina	mars hill	NA	NA	NA	Mars+Hill,NC
+-82.4581536	28.9169245	locality	approximate	beverly hills, fl, usa	28.9362491	28.9041729	-82.438424	-82.477323	NA	united states	citrus county	florida	beverly hills	NA	NA	NA	Beverly+Hills,FL
+115.9274113	-32.0360812	locality	approximate	lynwood wa 6147, australia	-32.0314981	-32.0492799	115.9374453	115.9190797	6147	australia	NA	western australia	lynwood	NA	NA	NA	Lynwood,WA
+-109.4662461	41.5285757	locality	approximate	green river, wy, usa	41.546796	41.451893	-109.4252581	-109.521075	NA	united states	sweetwater county	wyoming	green river	NA	NA	NA	GreenRiver,WY
+-82.5154471	40.75839	locality	approximate	mansfield, oh, usa	40.843412	40.68897	-82.457189	-82.59009	NA	united states	richland county	ohio	mansfield	NA	NA	NA	Mansfield,OH
+-78.5805673	33.9010054	locality	approximate	carolina shores, nc, usa	33.91961	33.8901549	-78.560734	-78.5923141	NA	united states	brunswick county	north carolina	carolina shores	NA	NA	NA	Carolina+Shores,NC
+-83.9293952	42.6072552	locality	approximate	howell, mi, usa	42.6293579	42.5846139	-83.912418	-83.96553	NA	united states	livingston county	michigan	howell	NA	NA	NA	Howell,MI
+-95.6937856	29.9716905	locality	approximate	cypress, tx, usa	30.0505665	29.8752484	-95.586086	-95.8084866	NA	united states	harris county	texas	cypress	NA	NA	NA	Cypress,TX
+-85.0007653	32.4709761	locality	approximate	phenix city, al, usa	32.5418999	32.3642969	-84.96303	-85.094198	NA	united states	russell county	alabama	phenix city	NA	NA	NA	Phenix+city,AL
+-88.3089272	33.887054	locality	approximate	greenwood springs, ms 38848, usa	33.8963162	33.8777908	-88.2929198	-88.3249346	38848	united states	monroe county	mississippi	greenwood springs	NA	NA	NA	Greenwood+Springs,MS
+-114.594155	36.682194	locality	approximate	moapa, nv, usa	36.853473	36.657334	-114.508231	-114.8125911	NA	united states	clark county	nevada	moapa	NA	NA	NA	Moapa,NV
+-78.8866943	33.6890603	locality	approximate	myrtle beach, sc, usa	33.791703	33.647788	-78.793131	-78.9644841	NA	united states	horry county	south carolina	myrtle beach	NA	NA	NA	Myrtle+Beach+,SC
+-86.1180435	39.978371	locality	approximate	carmel, in, usa	40.0005989	39.926055	-86.023519	-86.241249	NA	united states	hamilton county	indiana	carmel	NA	NA	NA	Carmel,IN
+-86.4832913	31.3085039	locality	approximate	andalusia, al, usa	31.3483899	31.2770949	-86.4302269	-86.5225199	NA	united states	covington county	alabama	andalusia	NA	NA	NA	Andalusia,AL
+-122.5464856	45.7328944	locality	approximate	brush prairie, wa, usa	45.7581099	45.7077109	-122.515904	-122.5994271	NA	united states	clark county	washington	brush prairie	NA	NA	NA	Brush+Prairie,WA
+-93.2010367	43.1535728	locality	approximate	mason city, ia 50401, usa	43.1841158	43.1043401	-93.112528	-93.280436	50401	united states	cerro gordo county	iowa	mason city	NA	NA	NA	Mason+City,IA
+-93.62	42.034722	locality	approximate	ames, ia, usa	42.076253	41.975428	-93.5542299	-93.698523	NA	united states	story county	iowa	ames	NA	NA	NA	Ames,IA
+-80.271716	26.0573112	locality	approximate	cooper city, fl, usa	26.0647493	26.029267	-80.2489449	-80.3293638	NA	united states	broward county	florida	cooper city	NA	NA	NA	Cooper+City,FL
+-85.0427257	34.8406339	locality	approximate	tunnel hill, ga, usa	34.860945	34.8327668	-85.0184979	-85.060318	NA	united states	whitfield county	georgia	tunnel hill	NA	NA	NA	Tunnel+Hill,GA
+-88.0075875	43.0494572	locality	approximate	wauwatosa, wi, usa	43.1045101	43.0309119	-87.984006	-88.067088	NA	united states	milwaukee county	wisconsin	wauwatosa	NA	NA	NA	Wauwatosa,WI
+-93.6001278	41.7317884	locality	approximate	ankeny, ia, usa	41.7768179	41.6520821	-93.541439	-93.6712971	NA	united states	polk county	iowa	ankeny	NA	NA	NA	Ankeny,IA
+-66.0633081	45.2733153	locality	approximate	saint-john, nb, canada	45.3780341	44.842054	-65.8391909	-66.244504	NA	canada	saint john county	nouveau-brunswick	saint-john	NA	NA	NA	Saint+John+,NB
+-85.0817091	35.0712154	locality	approximate	ooltewah, tn, usa	35.081128	35.034618	-85.032653	-85.1295229	NA	united states	hamilton county	tennessee	ooltewah	NA	NA	NA	Ooltewah,TN
+-85.7584557	38.2526647	locality	approximate	louisville, ky, usa	38.38051	37.9971	-85.4051	-85.948441	NA	united states	jefferson county	kentucky	louisville	NA	NA	NA	Louisville,
+-81.7415163	40.3325692	locality	approximate	fresno, oh 43824, usa	40.3410744	40.3240629	-81.7255089	-81.7575237	43824	united states	coshocton county	ohio	fresno	NA	NA	NA	Fresno,OH
+-70.3002024	41.7003208	locality	approximate	barnstable, ma, usa	41.7396914	41.5872881	-70.25964	-70.4658159	NA	united states	barnstable county	massachusetts	barnstable	NA	NA	NA	Barnstable,MA
+-86.5861037	34.7303688	locality	approximate	huntsville, al, usa	34.8652061	34.537651	-86.413795	-86.905704	NA	united states	madison county	alabama	huntsville	NA	NA	NA	Huntsville,AL
+error	error	NA	NA	NA	error	error	error	error	error	error	error	error	error	error	error	error	error
+-112.8285983	53.0222045	locality	approximate	camrose, ab, canada	53.0400449	52.96683	-112.7857198	-112.870632	NA	canada	division no. 10	alberta	camrose	NA	NA	NA	Camrose+,AB
+-117.086421	33.1192068	locality	approximate	escondido, ca, usa	33.2116089	33.0578419	-116.9938521	-117.1461029	NA	united states	san diego county	california	escondido	NA	NA	NA	Escondido,CA
+-92.9852183	45.2788561	locality	approximate	forest lake, mn, usa	45.2969219	45.210281	-92.8950619	-93.019745	NA	united states	washington county	minnesota	forest lake	NA	NA	NA	Forest+Lake,MN
+-84.2029922	39.4353373	locality	approximate	lebanon, oh, usa	39.467597	39.3653729	-84.160212	-84.270041	NA	united states	warren county	ohio	lebanon	NA	NA	NA	Lebanon,OH
+-90.153141	30.8471283	locality	approximate	franklinton, la 70438, usa	30.867032	30.824396	-90.1218939	-90.171819	70438	united states	washington parish	louisiana	franklinton	NA	NA	NA	franklinton,LA
+-123.332335	42.3475232	locality	approximate	murphy, or 97527, usa	42.3551063	42.3421346	-123.3250895	-123.3424887	97527	united states	josephine county	oregon	murphy	NA	NA	NA	Murphy,OR
+-121.9709579	47.8553772	locality	approximate	monroe, wa, usa	47.8825499	47.837357	-121.9331622	-122.0123841	NA	united states	snohomish county	washington	monroe	NA	NA	NA	Monroe,WA
+-114.8829119	47.4602135	locality	approximate	plains, mt 59859, usa	47.469659	47.4517631	-114.871638	-114.8950039	59859	united states	sanders county	montana	plains	NA	NA	NA	Plains,MT
+-70.934205	41.6362152	locality	approximate	new bedford, ma, usa	41.745747	41.5914145	-70.8996551	-70.9770829	NA	united states	bristol county	massachusetts	new bedford	NA	NA	NA	New+Bedford,MA
+-117.7499909	34.055103	locality	approximate	pomona, ca, usa	34.1129359	34.018512	-117.711067	-117.828817	NA	united states	los angeles county	california	pomona	NA	NA	NA	Pomona,CA
+-123.8052935	39.445723	locality	approximate	fort bragg, ca 95437, usa	39.4710549	39.418456	-123.7827869	-123.820384	95437	united states	mendocino county	california	fort bragg	NA	NA	NA	fort++bragg,CA
+-74.0754189	40.9445428	locality	approximate	paramus, nj, usa	40.980635	40.9085321	-74.0388439	-74.101378	NA	united states	bergen county	new jersey	paramus	NA	NA	NA	Paramus,NJ
+-84.324087	34.8639719	locality	approximate	blue ridge, ga 30513, usa	34.8867368	34.847411	-84.2947239	-84.343646	30513	united states	fannin county	georgia	blue ridge	NA	NA	NA	Blue+Ridge,GA
+-1.519693	52.406822	locality	approximate	coventry, west midlands, uk	52.4634723	52.3639108	-1.4239508	-1.6058853	NA	united kingdom	west midlands	england	coventry	NA	NA	NA	Coventry+,
+-83.0302033	42.5803122	locality	approximate	sterling heights, mi, usa	42.627811	42.534792	-82.9696351	-83.091449	NA	united states	macomb county	michigan	sterling heights	NA	NA	NA	Sterling+Heights,MI
+-81.6559137	29.5549701	locality	approximate	satsuma, fl 32189, usa	29.5646758	29.5452635	-81.6399063	-81.6719211	32189	united states	putnam county	florida	satsuma	NA	NA	NA	Satsuma,FL
+-96.8899636	32.9756415	locality	approximate	carrollton, tx, usa	33.0547039	32.918028	-96.8384611	-96.9601349	NA	united states	dallas county	texas	carrollton	NA	NA	NA	Carrolltom,TX
+-86.018651	42.8125246	locality	approximate	zeeland, mi 49464, usa	42.826893	42.7979019	-85.988962	-86.038501	49464	united states	ottawa county	michigan	zeeland	NA	NA	NA	Zeeland,MI
+2.1734035	41.3850639	locality	approximate	barcelona, barcelona, spain	41.4695761	41.320004	2.2280099	2.0695258	NA	spain	barcelona	catalonia	barcelona	NA	NA	NA	Barcelona+,
+-91.5968958	42.033279	locality	approximate	marion, ia, usa	42.0868619	42.009655	-91.5304171	-91.6336989	NA	united states	linn county	iowa	marion	NA	NA	NA	Marion,IA
+-122.4981921	47.7987072	locality	approximate	kingston, wa, usa	47.817431	47.7803021	-122.4824371	-122.518445	NA	united states	kitsap county	washington	kingston	NA	NA	NA	Kingston,WA
+-87.6300207	40.124481	locality	approximate	danville, il, usa	40.204524	40.1033819	-87.5316978	-87.665221	NA	united states	vermilion county	illinois	danville	NA	NA	NA	Danville,IL
+-107.2528069	33.1284047	locality	approximate	truth or consequences, nm, usa	33.271547	33.112366	-107.211345	-107.29463	NA	united states	sierra county	new mexico	truth or consequences	NA	NA	NA	Truth+or+Consequences,NM
+-90.3776187	38.4328317	locality	approximate	arnold, mo, usa	38.458253	38.3858339	-90.336017	-90.4178269	NA	united states	jefferson county	missouri	arnold	NA	NA	NA	Arnold,MO
+-96.3699632	30.6743643	locality	approximate	bryan, tx, usa	30.730455	30.590893	-96.245722	-96.460759	NA	united states	brazos county	texas	bryan	NA	NA	NA	Bryan,TX
+-89.6048231	39.8936608	locality	approximate	sherman, il, usa	39.9152371	39.8672449	-89.582568	-89.631157	NA	united states	sangamon county	illinois	sherman	NA	NA	NA	Sherman,IL
+-77.885374	37.6841421	locality	approximate	goochland, va, usa	37.718949	37.673147	-77.875725	-77.9225289	NA	united states	goochland county	virginia	goochland	NA	NA	NA	Goochland,VA
+-88.2120315	41.632223	locality	approximate	plainfield, il, usa	41.6772319	41.569332	-88.163141	-88.2893039	NA	united states	will county	illinois	plainfield	NA	NA	NA	Plainfield,IL
+-89.4174641	38.9653588	administrative_area_level_3	approximate	lagrange, il, usa	39.027862	38.9151891	-89.36125	-89.4861859	NA	united states	bond county	illinois	NA	NA	NA	NA	LaGrange,IL
+-96.6783449	34.774531	locality	approximate	ada, ok, usa	34.8401119	34.5059339	-96.5648481	-96.757561	NA	united states	pontotoc county	oklahoma	ada	NA	NA	NA	Ada,OK
+-86.6197777	36.1988486	sublocality_level_1	approximate	hermitage, nashville, tn, usa	36.2323572	36.0569209	-86.5155879	-86.6596379	NA	united states	davidson county	tennessee	nashville	NA	NA	NA	Hermitage,TN
+-116.9171246	47.400736	locality	approximate	worley, id 83876, usa	47.4059739	47.395315	-116.9129071	-116.9224461	83876	united states	kootenai county	idaho	worley	NA	NA	NA	Worley,ID
+-82.3940104	34.8526176	locality	approximate	greenville, sc, usa	34.8908379	34.7754991	-82.2909819	-82.434679	NA	united states	greenville county	south carolina	greenville	NA	NA	NA	Greenville,SC
+-84.6041084	37.0920222	locality	approximate	somerset, ky, usa	37.1200641	37.031352	-84.5648389	-84.6475611	NA	united states	pulaski county	kentucky	somerset	NA	NA	NA	Somerset,KY
+-80.1917902	25.7616798	locality	approximate	miami, fl, usa	25.8556059	25.709042	-80.1424003	-80.3197599	NA	united states	miami-dade county	florida	miami	NA	NA	NA	Miami+,FL
+-119.2320784	36.9858984	administrative_area_level_2	approximate	fresno county, ca, usa	37.5858369	35.906914	-118.3605861	-120.9187309	NA	united states	fresno county	california	NA	NA	NA	NA	Fresno+County,CA
+-90.3331719	38.5506084	locality	approximate	affton, mo, usa	38.566952	38.5252519	-90.3001149	-90.3589159	NA	united states	st. louis county	missouri	affton	NA	NA	NA	Afton,MO
+-70.736137	43.0881256	locality	approximate	kittery, me, usa	43.1484189	43.0583476	-70.6550028	-70.7750599	NA	united states	york county	maine	kittery	NA	NA	NA	Kittery,ME
+-100.8895761	46.8266603	locality	approximate	mandan, nd, usa	46.873832	46.785566	-100.820661	-100.9714081	NA	united states	morton county	north dakota	mandan	NA	NA	NA	Mandan,ND
+-79.8922712	40.3247918	locality	approximate	glassport, pa, usa	40.3452689	40.3112688	-79.8717699	-79.8975709	NA	united states	allegheny county	pennsylvania	glassport	NA	NA	NA	Glassport,PA
+-97.5819319	26.2353516	locality	approximate	rio hondo, tx, usa	26.2492261	26.2150359	-97.5715428	-97.5970359	NA	united states	cameron county	texas	rio hondo	NA	NA	NA	Rio+Hondo,TX
+-75.7452225	39.9928848	locality	approximate	thorndale, pa, usa	40.0129449	39.9857019	-75.7346209	-75.766285	NA	united states	chester county	pennsylvania	thorndale	NA	NA	NA	Thorndale,PA
+-76.4932748	42.2097963	locality	approximate	spencer, ny 14883, usa	42.2251319	42.205553	-76.486633	-76.50623	14883	united states	tioga county	new york	spencer	NA	NA	NA	Spencer,NY
+-82.0092745	35.6840131	locality	approximate	marion, nc 28752, usa	35.7080981	35.6509731	-81.9552989	-82.046106	28752	united states	mcdowell county	north carolina	marion	NA	NA	NA	Marion,NC
+-122.5616448	37.9746458	locality	approximate	san anselmo, ca, usa	37.999722	37.967223	-122.5500579	-122.58679	NA	united states	marin county	california	san anselmo	NA	NA	NA	San+Anselmo,CA
+-89.2789495	31.5023903	locality	approximate	moselle, ms 39459, usa	31.5119033	31.4928763	-89.2629421	-89.2949569	39459	united states	jones county	mississippi	moselle	NA	NA	NA	Moselle,MS
+-71.7928579	43.6114624	locality	approximate	alexandria, nh, usa	43.695588	43.5446028	-71.7507599	-71.9104	NA	united states	grafton county	new hampshire	alexandria	NA	NA	NA	Alexandria,NH
+-71.6304407	43.6236211	locality	approximate	new hampton, nh, usa	43.6919709	43.538457	-71.5242148	-71.731548	NA	united states	belknap county	new hampshire	new hampton	NA	NA	NA	New+Hampton,NH
+-90.4974359	38.7881062	locality	approximate	saint charles, mo, usa	38.845103	38.7449639	-90.460517	-90.570824	NA	united states	st. charles county	missouri	saint charles	NA	NA	NA	Saint+Charles,MO
+-118.8375937	34.1705609	locality	approximate	thousand oaks, ca, usa	34.2503339	34.1247771	-118.776388	-119.0034361	NA	united states	ventura county	california	thousand oaks	NA	NA	NA	Thousand+Oaks,CA
+-96.7844417	33.3245586	locality	approximate	celina, tx, usa	33.403664	33.2480331	-96.7136429	-96.839153	NA	united states	collin county	texas	celina	NA	NA	NA	Celina,TX
+-75.1652215	39.9525839	locality	approximate	philadelphia, pa, usa	40.1379919	39.8715136	-74.9557629	-75.280303	NA	united states	philadelphia county	pennsylvania	philadelphia	NA	NA	NA	Philadelphia+,PA
+-74.2097014	40.082129	locality	approximate	lakewood township, nj, usa	40.120394	40.023834	-74.151111	-74.258899	NA	united states	ocean county	new jersey	lakewood township	NA	NA	NA	Lakewood,NJ
+-73.2453824	42.4500845	locality	approximate	pittsfield, ma, usa	42.503383	42.3981969	-73.182047	-73.3387788	NA	united states	berkshire county	massachusetts	pittsfield	NA	NA	NA	Pittsfield,MA
+-74.3000878	40.2136754	locality	approximate	freehold township, nj, usa	40.2954789	40.1682959	-74.22275	-74.406777	NA	united states	monmouth county	new jersey	freehold township	NA	NA	NA	Freehold,NJ
+-77.2864879	38.0445557	administrative_area_level_2	approximate	caroline county, va, usa	38.252742	37.776297	-77.06871	-77.643367	NA	united states	caroline county	virginia	NA	NA	NA	NA	Caroline+County,VA
+-93.2507099	30.2421496	locality	approximate	westlake, la, usa	30.2862451	30.2346969	-93.2455899	-93.2837358	NA	united states	calcasieu parish	louisiana	westlake	NA	NA	NA	Westlake,LA
+-84.8802444	29.6584899	natural_feature	approximate	st. george island, florida 32328, usa	29.7636685	29.5854194	-84.7035885	-85.0949765	32328	united states	franklin county	florida	NA	NA	NA	NA	St.+George+Island,FL
+-118.9883503	35.2668588	route	geometric_center	panama road, california, usa	35.2678009302915	35.2651029697085	-118.9753615	-119.0031536	NA	united states	kern county	california	NA	panama road	NA	NA	Panama+City,AL
+-3.0356748	53.8175053	locality	approximate	blackpool, uk	53.8782396	53.7725781	-2.9858799	-3.0624611	NA	united kingdom	NA	england	blackpool	NA	NA	NA	Blackpool+,
+-90.3381361	29.5427168	locality	approximate	cut off, la, usa	29.5562261	29.471084	-90.290086	-90.373346	NA	united states	lafourche parish	louisiana	cut off	NA	NA	NA	Cut+Off,LA
+-85.3477343	34.480642	locality	approximate	summerville, ga 30747, usa	34.4999789	34.4485618	-85.3293231	-85.3668019	30747	united states	chattooga county	georgia	summerville	NA	NA	NA	Summerville,GA
+-70.192839	44.6158945	neighborhood	approximate	east wilton, wilton, me 04234, usa	44.6238366	44.6079514	-70.1768316	-70.2088464	04234	united states	franklin county	maine	wilton	NA	NA	NA	East+Wilton,ME
+-122.5593218	49.0743308	locality	approximate	langley, bc, canada	49.2107112	49.0021272	-122.4593103	-122.6805442	NA	canada	greater vancouver	british columbia	langley	NA	NA	NA	Langley,BC
+-93.2777226	44.7677424	locality	approximate	burnsville, mn, usa	44.828987	44.717207	-93.221464	-93.329674	NA	united states	dakota county	minnesota	burnsville	NA	NA	NA	Burnsville,MN
+-83.2625577	42.516131	locality	approximate	beverly hills, mi, usa	42.5319049	42.5084498	-83.203746	-83.274945	NA	united states	oakland county	michigan	beverly hills	NA	NA	NA	Beverly+Hills,MI
+-83.3965994	42.2222614	locality	approximate	romulus, mi, usa	42.26823	42.1794389	-83.3060129	-83.4265828	NA	united states	wayne county	michigan	romulus	NA	NA	NA	Romulus,MI
+-120.798546	38.7296252	locality	approximate	placerville, ca 95667, usa	38.7485099	38.7128419	-120.7505019	-120.8514809	95667	united states	el dorado county	california	placerville	NA	NA	NA	Placerville,CA
+-95.2441009	29.4238472	locality	approximate	alvin, tx, usa	29.502032	29.070647	-95.0565926	-95.5823439	NA	united states	brazoria county	texas	alvin	NA	NA	NA	Alvin,TX
+-122.4702079	37.6879241	locality	approximate	daly city, ca, usa	37.7084311	37.6489339	-122.405453	-122.5003112	NA	united states	san mateo county	california	daly city	NA	NA	NA	Daly+City,CA
+-122.2284532	47.3073228	locality	approximate	auburn, wa, usa	47.354149	47.237142	-122.143636	-122.266149	NA	united states	king county	washington	auburn	NA	NA	NA	Auburn,WA
+-78.8903044	34.0562812	locality	approximate	loris, sc 29569, usa	34.0729999	34.0393	-78.856943	-78.909538	29569	united states	horry county	south carolina	loris	NA	NA	NA	Loris,SC
+-82.1823746	41.452819	locality	approximate	lorain, oh, usa	41.4852239	41.404719	-82.1020039	-82.292137	NA	united states	lorain county	ohio	lorain	NA	NA	NA	Lorain,OH
+-118.4164652	33.9191799	locality	approximate	el segundo, ca, usa	33.9314951	33.901671	-118.374325	-118.4299139	NA	united states	los angeles county	california	el segundo	NA	NA	NA	El+Segundo,CA
+-81.6943605	41.49932	locality	approximate	cleveland, oh, usa	41.5992571	41.390628	-81.5327439	-81.878976	NA	united states	cuyahoga county	ohio	cleveland	NA	NA	NA	Cleveland,OH
+-93.4263416	45.8321825	locality	approximate	ogilvie, mn 56358, usa	45.8391809	45.8214429	-93.4091591	-93.4380939	56358	united states	kanabec county	minnesota	ogilvie	NA	NA	NA	Ogilvie,MN
+-88.4834419	43.8113769	locality	approximate	north fond du lac, wi 54937, usa	43.8254899	43.79524	-88.470086	-88.5048541	54937	united states	fond du lac county	wisconsin	north fond du lac	NA	NA	NA	North+Fond+du+Llac,WI
+-81.5157535	27.6648274	administrative_area_level_1	approximate	florida, usa	32.546153	20.508621	-76.227424	-91.751105	NA	united states	NA	florida	NA	NA	NA	NA	Clermont+Hwy+27+12+mi.south,FL
+-85.3863599	40.1933767	locality	approximate	muncie, in, usa	40.2406969	40.1491029	-85.320673	-85.454449	NA	united states	delaware county	indiana	muncie	NA	NA	NA	Muncie,IN
+-71.3972815	41.8531773	neighborhood	approximate	hope, providence, ri, usa	41.8566001	41.8462	-71.3910128	-71.4097591	NA	united states	providence county	rhode island	providence	NA	NA	NA	Hope,RI
+-72.479037	41.8186802	locality	approximate	vernon, ct, usa	41.8744895	41.798499	-72.418891	-72.50753	NA	united states	tolland county	connecticut	vernon	NA	NA	NA	Vernon,CT
+-75.5551858	40.5159304	locality	approximate	macungie, pa, usa	40.5293651	40.5049599	-75.540566	-75.5643481	NA	united states	lehigh county	pennsylvania	macungie	NA	NA	NA	Macungie,PA
+-72.827915	41.8540094	locality	approximate	simsbury, ct, usa	41.9207959	41.8161299	-72.758639	-72.876644	NA	united states	hartford county	connecticut	simsbury	NA	NA	NA	Simsbury,CT
+-73.9395687	42.8142432	locality	approximate	schenectady, ny, usa	42.8436971	42.7634319	-73.893042	-73.983245	NA	united states	schenectady county	new york	schenectady	NA	NA	NA	Schenectady,NY
+-87.6314312	41.4444791	locality	approximate	crete, il, usa	41.470035	41.4202877	-87.5768839	-87.661478	NA	united states	will county	illinois	crete	NA	NA	NA	Crete,IL
+-74.8138334	44.628683	locality	approximate	parishville, ny, usa	44.642514	44.610478	-74.7809	-74.822585	NA	united states	st. lawrence county	new york	parishville	NA	NA	NA	Parishville,NY
+-94.8858492	47.4875361	locality	approximate	bemidji, mn 56601, usa	47.5269	47.4245639	-94.799758	-94.9494299	56601	united states	beltrami county	minnesota	bemidji	NA	NA	NA	Bemidji,MN
+-97.0819541	32.8370727	locality	approximate	euless, tx, usa	32.881659	32.8107971	-97.0330878	-97.1559829	NA	united states	tarrant county	texas	euless	NA	NA	NA	Euless,TX
+-71.6101011	44.3731103	locality	approximate	whitefield, nh, usa	44.44529	44.3047859	-71.524428	-71.6867539	NA	united states	coos county	new hampshire	whitefield	NA	NA	NA	Whitefield,NH
+-116.4668036	33.7805388	locality	approximate	cathedral city, ca, usa	33.889116	33.7560901	-116.43621	-116.493555	NA	united states	riverside county	california	cathedral city	NA	NA	NA	Cathedral+City,CA
+-111.9068824	40.8485564	locality	approximate	north salt lake, ut, usa	40.866734	40.821945	-111.8730619	-111.966884	NA	united states	davis county	utah	north salt lake	NA	NA	NA	North+Salt+Lake,UT
+-104.7613633	39.5186002	locality	approximate	parker, co, usa	39.56609	39.4500209	-104.7083891	-104.822989	NA	united states	douglas county	colorado	parker	NA	NA	NA	Parker,CO
+-79.7565197	40.7241094	locality	approximate	sarver, pa, usa	40.7422732	40.7109408	-79.7363687	-79.7848818	NA	united states	butler county	pennsylvania	sarver	NA	NA	NA	Sarver,PA
+-116.3744556	33.7222445	locality	approximate	palm desert, ca, usa	33.8103629	33.670671	-116.302079	-116.425925	NA	united states	riverside county	california	palm desert	NA	NA	NA	Palm+Desert,CA
+-81.5567846	38.1914912	locality	approximate	winifrede, wv 25214, usa	38.2002603	38.1827211	-81.5407772	-81.572792	25214	united states	kanawha county	west virginia	winifrede	NA	NA	NA	Winifrede,WV
+-70.468437	43.9015631	locality	approximate	raymond, me, usa	44.0127929	43.8423188	-70.3747401	-70.5294452	NA	united states	cumberland county	maine	raymond	NA	NA	NA	Raymond,ME
+-122.8553725	45.143731	locality	approximate	woodburn, or, usa	45.1628089	45.127862	-122.822429	-122.8933611	NA	united states	marion county	oregon	woodburn	NA	NA	NA	Woodburn,OR
+-71.6411997	42.3195556	locality	approximate	northborough, ma, usa	42.364924	42.278593	-71.580294	-71.6896511	NA	united states	worcester county	massachusetts	northborough	NA	NA	NA	Northborough,MA
+-122.5770322	45.1473445	locality	approximate	molalla, or 97038, usa	45.162847	45.1371501	-122.558476	-122.6125401	97038	united states	clackamas county	oregon	molalla	NA	NA	NA	Molalla,OR
+-96.9030365	29.6819003	locality	approximate	schulenburg, tx 78956, usa	29.699559	29.666542	-96.889953	-96.9315561	78956	united states	fayette county	texas	schulenburg	NA	NA	NA	Schulenburg,TX
+-81.1768813	35.9216748	locality	approximate	township of taylorsville, nc 28681, usa	35.935083	35.899494	-81.1440381	-81.1928859	28681	united states	alexander county	north carolina	township of taylorsville	NA	NA	NA	Taylorsville,NC
+-84.3265854	32.8881879	locality	approximate	thomaston, ga 30286, usa	32.9298019	32.851247	-84.2914231	-84.371809	30286	united states	upson county	georgia	thomaston	NA	NA	NA	Thomaston,GA
+-74.9108525	41.4774355	locality	approximate	barryville, ny, usa	41.4810388	41.4744945	-74.9053491	-74.9261992	NA	united states	sullivan county	new york	barryville	NA	NA	NA	Barryville,NY
+-77.885246	44.4344001	locality	approximate	havelock, on k0l, canada	44.4396531	44.4243794	-77.8699474	-77.8960653	NA	canada	peterborough county	ontario	havelock	NA	NA	NA	Havelock+,ON
+-69.5905815	45.4594863	locality	approximate	greenville, me, usa	45.5346909	45.399591	-69.472809	-69.6244789	NA	united states	piscataquis county	maine	greenville	NA	NA	NA	Greenville,ME
+-80.085059	42.1292241	locality	approximate	erie, pa, usa	42.1535009	42.077238	-80.003376	-80.138518	NA	united states	erie county	pennsylvania	erie	NA	NA	NA	Erie,PA
+-71.3824374	42.4072107	administrative_area_level_1	approximate	massachusetts, usa	42.88679	41.2390897	-69.9285511	-73.5081419	NA	united states	NA	massachusetts	NA	NA	NA	NA	Biddeford+Pool,MA
+-77.4010762	35.529051	locality	approximate	winterville, nc, usa	35.556281	35.4876209	-77.370878	-77.4325661	NA	united states	pitt county	north carolina	winterville	NA	NA	NA	Winterville,NC
+-82.2859247	27.937801	locality	approximate	brandon, fl, usa	27.9780931	27.87887	-82.2438568	-82.3438948	NA	united states	hillsborough county	florida	brandon	NA	NA	NA	Brandon,FL
+-78.1875167	42.9981156	locality	approximate	batavia, ny 14020, usa	43.017361	42.980779	-78.149896	-78.212848	14020	united states	genesee county	new york	batavia	NA	NA	NA	Batavia,NY
+-108.4846114	50.0940772	locality	approximate	gull lake, sk s0n, canada	50.106005	50.0876979	-108.4737949	-108.497134	NA	canada	division no. 8	saskatchewan	gull lake	NA	NA	NA	Gull+Lake+,SK
+-87.8486613	41.4958665	locality	approximate	frankfort, il, usa	41.5286259	41.441033	-87.780594	-87.907476	NA	united states	will county	illinois	frankfort	NA	NA	NA	Frankfort,IL
+-89.6787104	40.8617037	locality	approximate	dunlap, il 61525, usa	40.8674599	40.8445039	-89.672579	-89.6876939	61525	united states	peoria county	illinois	dunlap	NA	NA	NA	Dunlap,IL
+-82.4571776	27.950575	locality	approximate	tampa, fl, usa	28.1714781	27.82106	-82.2597409	-82.6486546	NA	united states	hillsborough county	florida	tampa	NA	NA	NA	Tampa+,FL
+-76.9105483	38.6265124	locality	approximate	waldorf, md, usa	38.6612699	38.6087599	-76.8420259	-76.9985959	NA	united states	charles county	maryland	waldorf	NA	NA	NA	Waldorf,MD
+error	error	NA	NA	NA	error	error	error	error	error	error	error	error	error	error	error	error	error
+-90.8515311	44.2946833	locality	approximate	black river falls, wi 54615, usa	44.3169288	44.2776399	-90.801158	-90.8734449	54615	united states	jackson county	wisconsin	black river falls	NA	NA	NA	Black+River+Falls,WI
+-81.2420473	41.1575566	locality	approximate	ravenna, oh 44266, usa	41.1907911	41.1383749	-81.2131341	-81.2789239	44266	united states	portage county	ohio	ravenna	NA	NA	NA	Ravenna,OH
+-122.7094767	42.1945758	locality	approximate	ashland, or 97520, usa	42.216158	42.1671954	-122.6510641	-122.735963	97520	united states	jackson county	oregon	ashland	NA	NA	NA	Ashland,OR
+-81.609844	41.127833	locality	approximate	fairlawn, oh, usa	41.1499261	41.1087969	-81.5873698	-81.657281	NA	united states	summit county	ohio	fairlawn	NA	NA	NA	Fairlawn,OH
+-76.4782965	40.4137017	locality	approximate	jonestown, pa, usa	40.420944	40.403666	-76.471858	-76.4894159	NA	united states	lebanon county	pennsylvania	jonestown	NA	NA	NA	Jonestown,PA
+-93.4665731	35.4714724	locality	approximate	clarksville, ar 72830, usa	35.4983109	35.42264	-93.4176941	-93.5385791	72830	united states	johnson county	arkansas	clarksville	NA	NA	NA	Clarksville,AR
+-122.5910056	48.8464991	locality	approximate	ferndale, wa, usa	48.8846309	48.8170919	-122.5479531	-122.627943	NA	united states	whatcom county	washington	ferndale	NA	NA	NA	Ferndale,WA
+-79.461256	44.059187	locality	approximate	newmarket, on, canada	44.083833	44.01673	-79.4126239	-79.509788	NA	canada	york regional municipality	ontario	newmarket	NA	NA	NA	Newmarket+,ON
+-74.0218063	41.0589855	locality	approximate	pearl river, ny, usa	41.0802171	41.030797	-73.967353	-74.0511848	NA	united states	rockland county	new york	pearl river	NA	NA	NA	Pearl+River,NY
+-111.7646778	34.7794882	hospital	approximate	parking area #1, slide rock road, sedona, az 86351, usa	34.7808371802915	34.7781392197085	-111.763328819709	-111.766026780291	86351	united states	yavapai county	arizona	sedona	slide rock road	NA	parking area #1	Sedona+area,AZ
+-72.7234481	43.1734338	locality	approximate	windham, vt, usa	43.2332491	43.122066	-72.67716	-72.7744759	NA	united states	windham county	vermont	windham	NA	NA	NA	Windham,VT
+-85.8054879	30.1765914	locality	approximate	panama city beach, fl, usa	30.2967561	30.165091	-85.786163	-85.958015	NA	united states	bay county	florida	panama city beach	NA	NA	NA	Panama+City+Beach,FL
+-92.6238082	44.8613563	locality	approximate	river falls, wi 54022, usa	44.9012491	44.829553	-92.5796159	-92.6499109	54022	united states	pierce county	wisconsin	river falls	NA	NA	NA	River+Falls,WI
+-83.9879625	33.9562149	locality	approximate	lawrenceville, ga, usa	33.990437	33.912095	-83.9514349	-84.0462911	NA	united states	gwinnett county	georgia	lawrenceville	NA	NA	NA	Lawrenceville,GA
+-81.8603778	30.0688512	locality	approximate	middleburg, fl, usa	30.109761	30.0011491	-81.8430559	-81.932656	NA	united states	clay county	florida	middleburg	NA	NA	NA	Middleburg,FL
