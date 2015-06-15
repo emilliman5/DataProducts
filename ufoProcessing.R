@@ -5,6 +5,9 @@ library(parallel)
 library(lubridate)
 library(fields)
 library(maps)
+library(httr)
+library(rjson)
+library(RColorBrewer)
 
 date<-as.Date("01/01/10", "%d/%m/%Y")
 
@@ -26,16 +29,53 @@ obs<-obs[,c(8,2,3,4,5,6)]
 obs$City<-as.character(obs$City)
 obs$State<-as.character(obs$State)
 obs$City<-gsub("[/\\(].*","",obs$City, perl=T)
+obs$locale<-paste(obs$City, obs$State, sep=",")
+obs$locale<-gsub("\\\"","", obs$locale)
 
-locations<-unique(paste(obs$City, obs$State, sep=","))
+write.table(obs, "UFO_sightings.txt", col.names=T, row.names = F, sep="\t")
+
+locations<-unique(obs$locale)
+
+##Geocoding Cities from DataScienceToolkit.org
+data <- paste0("[",paste(paste0("\"",locations,"\""),collapse=","),"]")
+url  <- "http://www.datasciencetoolkit.org/street2coordinates"
+response <- POST(url,body=data)
+json     <- fromJSON(content(response,type="text"))
+geocodes  <- do.call(rbind,sapply(json,
+                        function(x) c(long=x$longitude,lat=x$latitude)))
+
+geocodes<-as.data.frame(geocodes)
+geocodes$query<-rownames(geocodes)
+rownames(geocodes)<-seq(1,length(geocodes[,1]))
+
+write.table(geocodes[,c(3,1,2)], "geocodes_DSTK.txt", sep="\t", quote = F, col.names = T, row.names=F)
+
+obs.summary<-count(obs, "locale")
+obs.summary<-merge(obs.summary, geocodes, by.x="locale", by.y="query")
+obs.summary$long<-as.character(obs.summary$long)
+obs.summary$lat<-as.character(obs.summary$lat)
+
+write.table(obs.summary, "UFO_aggregate_sightings.txt", col.names = T, row.names = F)
+
 data(us.cities)
-geocodes<-us.cities[us.cities$name %in% locations,]
-locations<-locations[!(locations %in% us.cities$name)]
+map("usa")
+map("state", col="black",fill=F, add=T, lty=1, lwd=0.5)
+map.cities(us.cities,minpop = 250000, cex=1.5, pch=19, col="blue")
+n=10
+my_palette<-colorRampPalette(rev(brewer.pal(5, "YlGnBu")))(n=n-1)
+points(obs.summary$long,obs.summary$lat, pch=19,cex=0.2, col="red")
+smoothScatter(obs.summary$long,obs.summary$lat)
 
-##locations[1:1900]
-##locations[1901:2400]
-##locations[2401:4400]
+map("world")
+map("state", col="black",fill=F, add=T, lty=1, lwd=0.5)
+map.cities(world.cities,minpop = 250000, cex=0.75, pch=19, col="blue")
+n=10
+my_palette<-colorRampPalette(rev(brewer.pal(5, "YlGnBu")))(n=n-1)
+points(obs.summary$long,obs.summary$lat, pch=19,cex=0.05, col="red")
 
+
+
+##Google Maps API call, limited to 2500 requests per 24hrs.
 x<-lapply(locations[4401:5000],function(x) y<- tryCatch(geocode(x, output = c("more")),
               warning = function(w) {
                 print("warning"); 
@@ -45,5 +85,4 @@ x<-lapply(locations[4401:5000],function(x) y<- tryCatch(geocode(x, output = c("m
                 print("error")
               }))
 tmp<-do.call(rbind, x)
-write.table(tmp, "geocodes_2401-4400.txt", sep="\t",quote=F,row.names=F)
-write.table(geocodes, "geocodes_master.txt", sep="\t",quote=F,row.names=F)
+##
