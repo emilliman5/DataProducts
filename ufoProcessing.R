@@ -28,7 +28,7 @@ obs$State<-as.character(obs$State)
 obs$City<-gsub("[/\\(].*","",obs$City, perl=T)
 
 locations<-unique(paste(obs$City, obs$State, sep=","))
-
+data(us.cities)
 geocodes<-us.cities[us.cities$name %in% locations,]
 locations<-locations[!(locations %in% us.cities$name)]
 
@@ -43,5 +43,5 @@ x<-lapply(locations[1901:2400],function(x) y<- tryCatch(geocode(x, output = c("m
                 print("error")
               }))
 tmp<-do.call(rbind, x)
-write.table(tmp, "geocodes_1-1900.txt", sep="\t",quote=F,row.names=F)
+write.table(tmp, "geocodes_1901-2400.txt", sep="\t",quote=F,row.names=F)
 write.table(geocodes, "geocodes_master.txt", sep="\t",quote=F,row.names=F)
