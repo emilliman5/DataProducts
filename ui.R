@@ -14,6 +14,8 @@ shinyUI(pageWithSidebar(
     verbatimTextOutput("prediction")
   ),
   mainPanel(
-    plotOutput("map")
-    )
+    plotOutput("map"),
+    h3("Acknowledgements"),
+    p('UFO sightings data was obtained from the National UFO reporting center (http://www.nuforc.org). The locations from the sightings data was gecoded using the DataScientists ToolKit () and Google Maps API servie and ggmap, D. Kahle and H. Wickham. ggmap: Spatial Visualization with ggplot2. The R Journal,
+    5(1), 144-161. URL http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf'))
 ))
