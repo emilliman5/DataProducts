@@ -2,6 +2,7 @@ library(shiny)
 library(fields)
 library(maps)
 library(calibrate)
+library(lubridate)
 
 plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     #LatDec = latitude in decimal degrees of the center of the circle
@@ -19,13 +20,24 @@ plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     polygon(Lon2Deg,Lat2Deg,lty=2)
 }
 
-sightings<-read.csv("UFO_sightings.txt")
-aggSightings<-read.csv("UFO_aggregate_sightings.txt")
+sightings<-read.csv("UFO_sighting_US.txt")
+aggSightings<-read.table("UFO_aggregate_sightings.txt", header=T)
 
 ufoPred<-function(y, x, r){
-    d<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(obs.summary[, c("long","lat")]))
+    d<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(aggSightings[, c("long","lat")]))
     use<-which(d<=r)
-    sum(obs.summary[use,"freq"])/sum(obs.summary[,"freq"])
+    sum(aggSightings[use,"freq"])/sum(aggSightings[,"freq"])
+    
+}
+
+ufoTable<-function(y,x,r,n){
+    d2<<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(sightings[, c("long","lat")]))
+    use2<<-which(d2<=rad)
+    head(sightings[use2,c("Date","City","State","Shape","Duration","Summary")],n)
+}
+
+sightingsAgg<-function(){
+    aggregate(sightings[use2,2],by = list(year(sightings[use2,"Date"])), length)
 }
 
 shinyServer(
@@ -39,5 +51,9 @@ shinyServer(
       text(input$long,input$lat+1, "You are Here")
       plotCircle(input$long,input$lat, input$rad)
       })
+    output$trend<-renderPlot({
+        plot(sightingsAgg(), pch=19, type="b", main="History of Sightings for your Location", xlab="Year", ylab="Number of Sightings")
+    })
+    output$view<-renderTable({ufoTable(input$lat, input$long, input$rad, input$n)})
     }
 )
