@@ -8,6 +8,7 @@ library(maps)
 library(httr)
 library(rjson)
 library(RColorBrewer)
+library(calibrate)
 
 date<-as.Date("01/01/10", "%d/%m/%Y")
 
@@ -32,7 +33,7 @@ obs$City<-gsub("[/\\(].*","",obs$City, perl=T)
 obs$locale<-paste(obs$City, obs$State, sep=",")
 obs$locale<-gsub("\\\"","", obs$locale)
 
-write.table(obs, "UFO_sightings.txt", col.names=T, row.names = F, sep="\t")
+write.table(obs, "UFO_sightings.txt", col.names=T, row.names = F, sep="\t", quote=T)
 
 locations<-unique(obs$locale)
 
@@ -51,28 +52,11 @@ rownames(geocodes)<-seq(1,length(geocodes[,1]))
 write.table(geocodes[,c(3,1,2)], "geocodes_DSTK.txt", sep="\t", quote = F, col.names = T, row.names=F)
 
 obs.summary<-count(obs, "locale")
-obs.summary<-merge(obs.summary, geocodes, by.x="locale", by.y="query")
+obs.summary<-merge(obs.summary, geocodes, by.x="locale", by.y="query", all.x=T)
 obs.summary$long<-as.character(obs.summary$long)
 obs.summary$lat<-as.character(obs.summary$lat)
 
 write.table(obs.summary, "UFO_aggregate_sightings.txt", col.names = T, row.names = F)
-
-data(us.cities)
-map("usa")
-map("state", col="black",fill=F, add=T, lty=1, lwd=0.5)
-map.cities(us.cities,minpop = 250000, cex=1.5, pch=19, col="blue")
-n=10
-my_palette<-colorRampPalette(rev(brewer.pal(5, "YlGnBu")))(n=n-1)
-points(obs.summary$long,obs.summary$lat, pch=19,cex=0.2, col="red")
-smoothScatter(obs.summary$long,obs.summary$lat)
-
-map("world")
-map("state", col="black",fill=F, add=T, lty=1, lwd=0.5)
-map.cities(world.cities,minpop = 250000, cex=0.75, pch=19, col="blue")
-n=10
-my_palette<-colorRampPalette(rev(brewer.pal(5, "YlGnBu")))(n=n-1)
-points(obs.summary$long,obs.summary$lat, pch=19,cex=0.05, col="red")
-
 
 
 ##Google Maps API call, limited to 2500 requests per 24hrs.
