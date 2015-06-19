@@ -30,14 +30,14 @@ ufoPred<-function(y, x, r){
     
 }
 
-ufoTable<-function(y,x,r,n){
-    d2<<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(sightings[, c("long","lat")]))
-    use2<<-which(d2<=rad)
-    head(sightings[use2,c("Date","City","State","Shape","Duration","Summary")],n)
+ufoTable<-function(y,x,r){
+    d2<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(sightings[, c("long","lat")]))
+    use2<-which(d2<=r)
+    use2
 }
 
-sightingsAgg<-function(){
-    aggregate(sightings[use2,2],by = list(year(sightings[use2,"Date"])), length)
+sightingsAgg<-function(u){
+    aggregate(sightings[u,2],by = list(year(sightings[u,"Date"])), length)
 }
 
 shinyServer(
@@ -52,8 +52,11 @@ shinyServer(
       plotCircle(input$long,input$lat, input$rad)
       })
     output$trend<-renderPlot({
-        plot(sightingsAgg(), pch=19, type="b", main="History of Sightings for your Location", xlab="Year", ylab="Number of Sightings")
+      plot(aggregate(sightings[ufoTable(input$lat, input$long, input$rad),"City"], 
+                     list(year(sightings[ufoTable(input$lat, input$long, input$rad),"Date"])),length), pch=19, type="b", xlab="Year",ylab="Number of Sightings")
     })
-    output$view<-renderTable({ufoTable(input$lat, input$long, input$rad, input$n)})
+    output$view<-renderTable({
+      head(sightings[ufoTable(input$lat, input$long, input$rad),
+                     c("Date","City","State","Duration","Shape","Summary")], input$n)})
     }
 )
