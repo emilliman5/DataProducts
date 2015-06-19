@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
     h2("Sightings in your vicinity"),
     h4("You entered:"),
     verbatimTextOutput("inputValue"),
-    h4("The chance you will see a UFO at this site is:"),
+    h4("The chance you will see a UFO at this location is:"),
     verbatimTextOutput("prediction")
   ),
   mainPanel(
