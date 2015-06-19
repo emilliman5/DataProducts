@@ -8,7 +8,7 @@ plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     #LatDec = latitude in decimal degrees of the center of the circle
     #LonDec = longitude in decimal degrees
     #Km = radius of the circle in kilometers
-    ER <- 3959 #Mean Earth radius in kilometers. Change this to 3959 and you will have your function working in miles.
+    ER <- 3959 #Mean Earth radius in miles.
     AngDeg <- seq(1:360) #angles in degrees 
     Lat1Rad <- LatDec*(pi/180)#Latitude of the center of the circle in radians
     Lon1Rad <- LonDec*(pi/180)#Longitude of the center of the circle in radians
@@ -40,6 +40,14 @@ sightingsAgg<-function(u){
     aggregate(sightings[u,2],by = list(year(sightings[u,"Date"])), length)
 }
 
+sightingsNormal<-function(u){
+  a<-aggregate(sightings[u,2],by = list(year(sightings[u,"Date"])), length)
+  t<-aggregate(sightings[year(sightings[,"Date"]) %in% a$Group.1,2], by=list(year(sightings[year(sightings[,"Date"]) %in% a$Group.1,"Date"]))
+                              ,length)
+  s<-cbind(a$Group.1, a$x/t$x)
+  s
+}
+
 shinyServer(
   function(input, output){
     output$inputValue<-renderPrint({c(input$lat, input$long)})
@@ -53,7 +61,12 @@ shinyServer(
       })
     output$trend<-renderPlot({
       plot(aggregate(sightings[ufoTable(input$lat, input$long, input$rad),"City"], 
-                     list(year(sightings[ufoTable(input$lat, input$long, input$rad),"Date"])),length), pch=19, type="b", xlab="Year",ylab="Number of Sightings")
+                     list(year(sightings[ufoTable(input$lat, input$long, input$rad),"Date"])),length), pch=19, type="b", xlab="Year",ylab="Number of Sightings", main="Sightings per Year")
+    })
+    output$trendNormal<-renderPlot({
+      plot(sightingsNormal(ufoTable(input$lat, input$long, input$rad)), 
+           pch=19, type="b", xlab="Year",ylab="Fraction of Sightings", 
+           main="Fraction of Total Sightings per Year")
     })
     output$view<-renderTable({
       head(sightings[ufoTable(input$lat, input$long, input$rad),

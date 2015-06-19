@@ -19,6 +19,7 @@ shinyUI(pageWithSidebar(
   mainPanel(
     plotOutput("map"),
     plotOutput("trend"),
+    plotOutput("trendNormal"),
     tableOutput("view"),
     h3("Acknowledgements"),
     p('UFO sightings data was obtained from the National UFO reporting center (http://www.nuforc.org). The locations from the sightings data was gecoded using the DataScientists ToolKit (http://www.datasciencetoolkit.org) and Google Maps API servie and ggmap, D. Kahle and H. Wickham. ggmap: Spatial Visualization with ggplot2. The R Journal,
