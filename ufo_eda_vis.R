@@ -44,7 +44,7 @@ plot(m, xlim=c(x-3,x+3), ylim=c(y-3,y+3), type="l")
 points(x, y, col="red",pch=18, cex=2)
 plotCircle(x,y,150)
 points(obs.summary[use,c("long","lat")], col=my_palette, pch=19, cex=0.5)
-legend("topright", bty="n", pch=19, col=my_palette, legend=levels(grps))
+legend("topright", bty="n", pch=19, col=my_palette, legend=levels(grps), cex=0.75)
 
 
 
@@ -55,9 +55,9 @@ library(ggmap)
 us<-get_map('usa', zoom=4)
 
 ggmap(us, extent='device',legend='topright', maprange=F) + 
-    geom_density2d(data=obs.summary, aes(x=long, y=lat)) +
     stat_density2d(data=obs.summary, aes(x=long, y=lat, fill=..level.., alpha=..level..),
                    size=1, bins=50, geom='polygon') + scale_fill_gradient(low = "green",high="red") + 
+    #geom_density2d(data=obs.summary, aes(x=long, y=lat)) +
     scale_alpha(range=c(0.1,0.7), guide=F)
     theme(legend.position="none",axis.title=element_blank(), text=element_text(size=12))
 
