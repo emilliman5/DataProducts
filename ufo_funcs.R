@@ -11,6 +11,6 @@ plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     Lon2Rad <- Lon1Rad+atan2(sin(AngRad)*sin(Mi/ER)*cos(Lat1Rad),cos(Mi/ER)-sin(Lat1Rad)*sin(Lat2Rad))#Longitude of each point of the circle rearding to angle in radians
     Lat2Deg <- Lat2Rad*(180/pi)#Latitude of each point of the circle rearding to angle in degrees (conversion of radians to degrees deg = rad*(180/pi) )
     Lon2Deg <- Lon2Rad*(180/pi)#Longitude of each point of the circle rearding to angle in degrees (conversion of radians to degrees deg = rad*(180/pi) )
-    c<-cbind(Lon2Deg,Lat2Deg)
+    c<-data.frame(Lon2Deg,Lat2Deg)
     c
 }
