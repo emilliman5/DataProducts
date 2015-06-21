@@ -20,21 +20,21 @@ shinyUI(pageWithSidebar(
     h3("Introduction"),
     p("This sight is designed to let you explore reported UFO sightings in the USA 
       (the rest of the world will be added at a later time). Data was obtained from the National 
-      UFO Reporting Center's Website", a("http://nuforc.org"), ". There have been ~78,000 reports 
+      UFO Reporting Center's Website", a("nuforc.org.",href="http://nuforc.org"), ". There have been ~78,000 reports 
       of UFO sightings across ~16,000 geographical locations in continental US, dating back to the 1960's. 
-      Questions, Comments and Concerns can be directed to me at", a("http://github.com/emilliman5"), "This 
-      webpage was built as part of the the John's Hopkins Data Science Specialization Series",a("http://datasciencespecialization.github.io/"), 
-      "at Coursera", a("http://Coursera.org")),
+      Questions, Comments and Concerns can be directed to me at", a("Github.", href="http://github.com/emilliman5"), "This 
+      webpage was built as part of the the John's Hopkins Data Science Specialization Series",a("datasciencespecialization.github.io/",href="http://datasciencespecialization.github.io/"), 
+      "at Coursera", a("coursera.org",href="http://coursera.org")),
     plotOutput("map"),
     plotOutput("trend"),
     plotOutput("trendNormal"),
     tableOutput("view"),
     h3("Acknowledgements"),
     p("UFO sightings data was obtained from the National UFO reporting center",
-    a("http://www.nuforc.org"),
+    a("nuforc.org", href="http://www.nuforc.org"),
     "The locations from the sightings data was gecoded using the DataScientists ToolKit",
-    a("http://www.datasciencetoolkit.org"),
+    a("DataScience ToolKit",href="http://www.datasciencetoolkit.org"),
     "and Google Maps API servie and ggmap, D. Kahle and H. Wickham. ggmap: Spatial Visualization with ggplot2. The R Journal, 5(1), 144-161.",
-    a("http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf"))
+    a("Kahle and Wickam", href="http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf"))
     )
 ))
