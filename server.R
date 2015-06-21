@@ -26,12 +26,14 @@ aggSightings<-read.csv("UFO_aggregate_sightings.txt", header=T)
 states<-map_data("state")
 aggSightings<-aggSightings[aggSightings[,"long"]>=range(states$long)[1] & aggSightings[,"long"]<=range(states$long)[2] &
                            aggSightings[,"lat"]>=range(states$lat)[1] & aggSightings[,"lat"]>=range(states$lat)[1], ]
+percent <- function(x, digits = 2, format = "f", ...) {
+  paste0(formatC(100 * x, format = format, digits = digits, ...), "%")
+}
 
 ufoPred<-function(y, x, r){
     d<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(aggSightings[, c("long","lat")]))
     use<-which(d<=r)
-    sum(aggSightings[use,"locale"])/sum(aggSightings[,"locale"])
-    
+    percent(sum(aggSightings[use,"locale"])/sum(aggSightings[,"locale"]))
 }
 
 ufoTable<-function(y,x,r){
