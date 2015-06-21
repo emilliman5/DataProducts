@@ -1,6 +1,7 @@
 library(shiny)
 library(fields)
 library(ggplot2)
+library(lubridate)
 
 plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     #LatDec = latitude in decimal degrees of the center of the circle
