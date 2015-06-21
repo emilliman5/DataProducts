@@ -1,8 +1,6 @@
 library(shiny)
 library(fields)
-library(maps)
-library(calibrate)
-library(lubridate)
+library(ggplot2)
 
 plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     #LatDec = latitude in decimal degrees of the center of the circle
@@ -17,16 +15,21 @@ plotCircle <- function(LonDec, LatDec, Mi) {#Corrected function
     Lon2Rad <- Lon1Rad+atan2(sin(AngRad)*sin(Mi/ER)*cos(Lat1Rad),cos(Mi/ER)-sin(Lat1Rad)*sin(Lat2Rad))#Longitude of each point of the circle rearding to angle in radians
     Lat2Deg <- Lat2Rad*(180/pi)#Latitude of each point of the circle rearding to angle in degrees (conversion of radians to degrees deg = rad*(180/pi) )
     Lon2Deg <- Lon2Rad*(180/pi)#Longitude of each point of the circle rearding to angle in degrees (conversion of radians to degrees deg = rad*(180/pi) )
-    polygon(Lon2Deg,Lat2Deg,lty=2)
+    c<-data.frame(Lon2Deg,Lat2Deg)
+    c
 }
 
 sightings<-read.csv("UFO_sighting_US.txt")
-aggSightings<-read.table("UFO_aggregate_sightings.txt", header=T)
+sightings[,"Date"]<-as.Date.factor(sightings[,"Date"])
+aggSightings<-read.csv("UFO_aggregate_sightings.txt", header=T)
+states<-map_data("state")
+aggSightings<-aggSightings[aggSightings[,"long"]>=range(states$long)[1] & aggSightings[,"long"]<=range(states$long)[2] &
+                           aggSightings[,"lat"]>=range(states$lat)[1] & aggSightings[,"lat"]>=range(states$lat)[1], ]
 
 ufoPred<-function(y, x, r){
     d<-rdist.earth(matrix(c(x,y),nrow=1), data.matrix(aggSightings[, c("long","lat")]))
     use<-which(d<=r)
-    sum(aggSightings[use,"freq"])/sum(aggSightings[,"freq"])
+    sum(aggSightings[use,"locale"])/sum(aggSightings[,"locale"])
     
 }
 
@@ -52,24 +55,31 @@ shinyServer(
   function(input, output){
     output$inputValue<-renderPrint({c(input$lat, input$long)})
     output$prediction<-renderPrint({ufoPred(input$lat, input$long, input$rad)})
+    coord<-reactive({data.frame(input$long, input$lat)})
     output$map<-renderPlot({
-      map("usa")
-      map("state", col="black",fill=F, add=T, lty=1, lwd=0.5)
-      points(input$long,input$lat, col="red", pch=19)
-      text(input$long,input$lat+1, "You are Here")
-      plotCircle(input$long,input$lat, input$rad)
-      })
+       ggplot()+geom_polygon(data=states, aes(long, lat, group=group), colour="black",fill="grey") +
+       stat_density2d(data=aggSightings, aes(x=long, y=lat, fill=..level.., alpha=..level..),
+                             size=1, bins=50, geom='polygon') + scale_fill_gradient(low = "green",high="red") + 
+        scale_alpha(range=c(0.1,0.5), guide=F) +
+        geom_point(aes_string(input$long, input$lat), colour="red",size=4) +
+        geom_polygon(data=plotCircle(input$long, input$lat, input$rad),aes(Lon2Deg,Lat2Deg), colour="red",alpha=0)
+       })
+    u<-reactive({ufoTable(input$lat, input$long, input$rad)})
     output$trend<-renderPlot({
-      plot(aggregate(sightings[ufoTable(input$lat, input$long, input$rad),"City"], 
-                     list(year(sightings[ufoTable(input$lat, input$long, input$rad),"Date"])),length), pch=19, type="b", xlab="Year",ylab="Number of Sightings", main="Sightings per Year")
-    })
+      plot(aggregate(sightings[u(),"City"], 
+                     list(year(sightings[u(),"Date"])),length), 
+           pch=19, type="b", xlab="Year",ylab="Number of Sightings", main="Sightings per Year")
+      })
     output$trendNormal<-renderPlot({
-      plot(sightingsNormal(ufoTable(input$lat, input$long, input$rad)), 
+      plot(sightingsNormal(u()), 
            pch=19, type="b", xlab="Year",ylab="Fraction of Sightings", 
            main="Fraction of Total Sightings per Year")
     })
     output$view<-renderTable({
-      head(sightings[ufoTable(input$lat, input$long, input$rad),
-                     c("Date","City","State","Duration","Shape","Summary")], input$n)})
+      cbind(as.character(sightings[u(),"Date"]), sightings[u(),
+                     c("City","State","Duration","Shape","Summary")])[1:input$n,]})
     }
 )
+
+
+
