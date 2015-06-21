@@ -59,7 +59,7 @@ shinyServer(
     output$map<-renderPlot({
        ggplot()+geom_polygon(data=states, aes(long, lat, group=group), colour="black",fill="grey") +
        stat_density2d(data=aggSightings, aes(x=long, y=lat, fill=..level.., alpha=..level..),
-                             size=1, bins=50, geom='polygon') + scale_fill_gradient(low = "green",high="red") + 
+                             size=1, bins=15, geom='polygon') + scale_fill_gradient(low = "green",high="red") + 
         scale_alpha(range=c(0.1,0.5), guide=F) +
         geom_point(aes_string(input$long, input$lat), colour="red",size=4) +
         geom_polygon(data=plotCircle(input$long, input$lat, input$rad),aes(Lon2Deg,Lat2Deg), colour="red",alpha=0)
