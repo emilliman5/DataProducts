@@ -22,7 +22,9 @@ shinyUI(pageWithSidebar(
       (the rest of the world will be added at a later time). Data was obtained from the National 
       UFO Reporting Center's Website", a("http://nuforc.org"), ". There have been ~78,000 reports 
       of UFO sightings across ~16,000 geographical locations in continental US, dating back to the 1960's. 
-      Questions, Comments and Concerns can be directed to me at", a("http://github.com/emilliman5")),
+      Questions, Comments and Concerns can be directed to me at", a("http://github.com/emilliman5"), "This 
+      webpage was built as part of the the John's Hopkins Data Science Specialization Series",a("http://datasciencespecialization.github.io/"), 
+      "at Coursera", a("http://Coursera.org")),
     plotOutput("map"),
     plotOutput("trend"),
     plotOutput("trendNormal"),
