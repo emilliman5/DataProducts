@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(pageWithSidebar(
-  headerPanel("Sightings from the Great Beyond"),
+  headerPanel("UFO Sightings in the USA"),
   sidebarPanel(
     h2("Enter a location:"),
     numericInput("lat","Latitude", 45.0, min=25, max=90),
@@ -17,6 +17,12 @@ shinyUI(pageWithSidebar(
     verbatimTextOutput("prediction")
   ),
   mainPanel(
+    h3("Introduction"),
+    p("This sight is designed to let you explore reported UFO sightings in the USA 
+      (the rest of the world will be added at a later time). Data was obtained from the National 
+      UFO Reporting Center's Website", a("http://nuforc.org"), ". There have been ~78,000 reports 
+      of UFO sightings across ~16,000 geographical locations in continental US, dating back to the 1960's. 
+      Questions, Comments and Concerns can be directed to me at", a("http://github.com/emilliman5")),
     plotOutput("map"),
     plotOutput("trend"),
     plotOutput("trendNormal"),
